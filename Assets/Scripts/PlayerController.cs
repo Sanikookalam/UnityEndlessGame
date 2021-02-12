@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     public float jumpTime;
     private float jumpTimeCounter;
 
+    // private bool stoppedJumping;
+
     private Rigidbody2D myRigidbody;
 
     public bool grounded;
