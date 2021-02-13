@@ -5413,8 +5413,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  speedMultiplier: 1.5
-  speedIncreaseMilestone: 50
+  speedMultiplier: 1.3
+  speedIncreaseMilestone: 20
   jumpForce: 6
   jumpTime: 0.5
   grounded: 1
@@ -5423,9 +5423,11 @@ MonoBehaviour:
     m_Bits: 256
   groundCheck: {fileID: 739791055}
   groundCheckRadius: 0.1
+  hasEntered: 0
   theGameManager: {fileID: 622586265}
   jumpSound: {fileID: 1706759146}
   deathSound: {fileID: 419346875}
+  scoreToGive: 0
 --- !u!1 &454353481
 GameObject:
   m_ObjectHideFlags: 0

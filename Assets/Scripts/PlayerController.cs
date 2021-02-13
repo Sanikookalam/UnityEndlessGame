@@ -25,17 +25,23 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius;
 
     private Collider2D myCollider;
+    public bool hasEntered;
 
     public GameManager theGameManager;
 
     public AudioSource jumpSound;
     public AudioSource deathSound;
+    private AudioSource enemySound;
+
+    private ScoreManager theScoreManager;
+    public int scoreToGive;
 
     // Start is called before the first frame update
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D> ();
-
+        theScoreManager = FindObjectOfType<ScoreManager>();
+        enemySound = GameObject.Find("EnemySound").GetComponent<AudioSource>();
         //myCollider = GetComponent<Collider2D> ();
 
         jumpTimeCounter = jumpTime;
@@ -120,12 +126,14 @@ public class PlayerController : MonoBehaviour
             theGameManager.RestartGame();
             deathSound.Play();
         }
-        // else if( other.gameObject.CompareTag("doshman") && !hasEntered)
-        // {
-        //     hasEntered = true;
-        //     moveSpeed = myRigidbody.velocity.x/2;
-        //     myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
-        // }
+        else if( (other.gameObject.tag == "doshman") && !hasEntered)
+        {
+            scoreToGive = -10;
+            theScoreManager.AddScore(scoreToGive);
+            moveSpeed = 3;
+            myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
+            enemySound.Play();
+        }
         else if(other.gameObject.tag == "sofre")
         {
             moveSpeed = 0;
