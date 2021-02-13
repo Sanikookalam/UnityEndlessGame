@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     private ScoreManager theScoreManager;
 
     public DeathMenu theDeathScreen; 
-    public SetActive setActive;
+    //public SetActive setActive;
 
     public WinMenu theWinMenu;
 

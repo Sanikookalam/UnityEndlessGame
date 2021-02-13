@@ -8,11 +8,11 @@ public class WinMenu : MonoBehaviour
 
     public void RestartGame()
     {
-        FindObjectOfType<GameManager>().Reset();
+        //FindObjectOfType<GameManager>().Reset();
     }
 
     public void QuitToMain()
     {
-        Application.LoadLevel(mainMenuLevel);
+        //Application.LoadLevel(mainMenuLevel);
     }
 }

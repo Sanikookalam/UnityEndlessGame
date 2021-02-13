@@ -42,7 +42,7 @@ public class PickupPoints : MonoBehaviour
             gameObject.SetActive(false);
             if (enemy == true)
             {
-                enemySound.Play();
+                //enemySound.Play();
             }
             else if (Fifth == true)
             {
