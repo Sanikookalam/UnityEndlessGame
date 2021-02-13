@@ -7,6 +7,7 @@ TagManager:
   - killbox
   - burger
   - doshman
+  - sofre
   layers:
   - Default
   - TransparentFX
