@@ -14,7 +14,8 @@ public class PlayerController : MonoBehaviour
     public float jumpTime;
     private float jumpTimeCounter;
 
-    // private bool stoppedJumping;
+    private bool stoppedJumping;
+    private bool canDoubleJump;
 
     private Rigidbody2D myRigidbody;
 
@@ -38,6 +39,10 @@ public class PlayerController : MonoBehaviour
         //myCollider = GetComponent<Collider2D> ();
 
         jumpTimeCounter = jumpTime;
+
+        stoppedJumping = true;
+        canDoubleJump = true;
+
     }
 
     // Update is called once per frame
@@ -58,14 +63,25 @@ public class PlayerController : MonoBehaviour
          myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
         
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        //if (Input.anyKeyDown)
         {
             if (grounded)
             {
                 myRigidbody.velocity = new Vector2(myRigidbody.velocity.x,jumpForce);
+                stoppedJumping = false;
+            }
+
+            if (!grounded && canDoubleJump)
+            {
+                jumpTimeCounter = jumpTime;
+                myRigidbody.velocity = new Vector2(myRigidbody.velocity.x,jumpForce);
+                canDoubleJump = false;
+                stoppedJumping = false;
             }
         }
 
-        if(Input.GetKey (KeyCode.Space) || Input.GetMouseButton(0))
+        if((Input.GetKey (KeyCode.Space) || Input.GetMouseButton(0)) && !stoppedJumping)
+        //if(Input.anyKey)
         {
             if(jumpTimeCounter > 0)
             {
@@ -75,13 +91,17 @@ public class PlayerController : MonoBehaviour
         }
 
         if (Input.GetKeyUp(KeyCode.Space) || Input.GetMouseButtonUp(0))
+        //if (Input.anyKey)
         {
             jumpTimeCounter = 0;
+            stoppedJumping = true;
         }
 
         if (grounded)
         {
             jumpTimeCounter = jumpTime;
+            canDoubleJump = true;
+            stoppedJumping = false;
             //jumpSound.Play();
         }
     }

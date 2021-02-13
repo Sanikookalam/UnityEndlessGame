@@ -5403,7 +5403,7 @@ MonoBehaviour:
   speedIncreaseMilestone: 50
   jumpForce: 6
   jumpTime: 0.5
-  grounded: 0
+  grounded: 1
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
@@ -20779,7 +20779,7 @@ GameObject:
   - component: {fileID: 1663415647}
   - component: {fileID: 1663415646}
   - component: {fileID: 1663415648}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Artboard 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
