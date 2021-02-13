@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,6 +16,7 @@ public class PickupPoints : MonoBehaviour
     public bool enemy;
     public bool Fifth;
 
+    public CameraShake cameraShake;
 
     // Start is called before the first frame update
     void Start()
@@ -51,5 +52,16 @@ public class PickupPoints : MonoBehaviour
                 coinSound.Play();
             }        
         }   
+
+    // void OnCollisionEnter2D(Collider2D col)
+    // {
+    //     if (col.gameObject.name == "Player")
+    //     {
+    //         if (enemy == true)
+    //         {
+    //             StartCoroutine(cameraShake.Shake(.15f , .4f));
+    //         }
+    //     }
+    // }    
     }
 }

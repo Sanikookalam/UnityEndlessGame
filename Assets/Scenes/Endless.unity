@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 3435268}
   - component: {fileID: 3435267}
   - component: {fileID: 3435266}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 50 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,6 +157,7 @@ MonoBehaviour:
   scoreToGive: 50
   enemy: 0
   Fifth: 1
+  cameraShake: {fileID: 0}
 --- !u!58 &3435267
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -396,9 +397,9 @@ GameObject:
   - component: {fileID: 29356499}
   - component: {fileID: 29356501}
   - component: {fileID: 29356502}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: pak kon
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -478,7 +479,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -517,7 +518,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29356498}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -525,6 +526,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &50318433
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,7 +539,7 @@ GameObject:
   - component: {fileID: 50318436}
   - component: {fileID: 50318435}
   - component: {fileID: 50318434}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -559,6 +561,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &50318435
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -731,7 +734,7 @@ GameObject:
   - component: {fileID: 64935321}
   - component: {fileID: 64935320}
   - component: {fileID: 64935319}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -753,6 +756,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &64935320
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -846,7 +850,7 @@ GameObject:
   - component: {fileID: 74231190}
   - component: {fileID: 74231189}
   - component: {fileID: 74231188}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (82)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -868,6 +872,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &74231189
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1073,7 +1078,7 @@ GameObject:
   - component: {fileID: 103756722}
   - component: {fileID: 103756721}
   - component: {fileID: 103756720}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (41)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -1095,6 +1100,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &103756721
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1471,7 +1477,7 @@ GameObject:
   - component: {fileID: 141526898}
   - component: {fileID: 141526897}
   - component: {fileID: 141526896}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (72)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -1493,6 +1499,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &141526897
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1586,7 +1593,7 @@ GameObject:
   - component: {fileID: 142955980}
   - component: {fileID: 142955979}
   - component: {fileID: 142955978}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (62)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -1608,6 +1615,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &142955979
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1701,7 +1709,7 @@ GameObject:
   - component: {fileID: 155437625}
   - component: {fileID: 155437624}
   - component: {fileID: 155437623}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (66)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -1723,6 +1731,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &155437624
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1816,7 +1825,7 @@ GameObject:
   - component: {fileID: 170208549}
   - component: {fileID: 170208548}
   - component: {fileID: 170208547}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (55)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -1838,6 +1847,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &170208548
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2092,7 +2102,7 @@ GameObject:
   - component: {fileID: 187886497}
   - component: {fileID: 187886496}
   - component: {fileID: 187886495}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2114,6 +2124,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &187886496
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2207,7 +2218,7 @@ GameObject:
   - component: {fileID: 192122192}
   - component: {fileID: 192122191}
   - component: {fileID: 192122190}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (77)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -2229,6 +2240,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &192122191
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2322,7 +2334,7 @@ GameObject:
   - component: {fileID: 196833516}
   - component: {fileID: 196833515}
   - component: {fileID: 196833514}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (32)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -2344,6 +2356,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &196833515
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2873,7 +2886,7 @@ GameObject:
   - component: {fileID: 268818857}
   - component: {fileID: 268818856}
   - component: {fileID: 268818855}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (16)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -2895,6 +2908,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &268818856
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2988,7 +3002,7 @@ GameObject:
   - component: {fileID: 286165249}
   - component: {fileID: 286165248}
   - component: {fileID: 286165247}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3010,6 +3024,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &286165248
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3103,7 +3118,7 @@ GameObject:
   - component: {fileID: 302804440}
   - component: {fileID: 302804439}
   - component: {fileID: 302804438}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3125,6 +3140,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &302804439
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3218,7 +3234,7 @@ GameObject:
   - component: {fileID: 306438931}
   - component: {fileID: 306438930}
   - component: {fileID: 306438929}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3240,6 +3256,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &306438930
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3369,7 +3386,7 @@ GameObject:
   - component: {fileID: 319644111}
   - component: {fileID: 319644110}
   - component: {fileID: 319644109}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3391,6 +3408,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &319644110
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3596,7 +3614,7 @@ GameObject:
   - component: {fileID: 333263241}
   - component: {fileID: 333263240}
   - component: {fileID: 333263239}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (45)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -3618,6 +3636,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &333263240
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3711,7 +3730,7 @@ GameObject:
   - component: {fileID: 349144254}
   - component: {fileID: 349144253}
   - component: {fileID: 349144252}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (22)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -3733,6 +3752,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &349144253
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4026,7 +4046,7 @@ GameObject:
   - component: {fileID: 356196176}
   - component: {fileID: 356196175}
   - component: {fileID: 356196174}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4048,6 +4068,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &356196175
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4141,7 +4162,7 @@ GameObject:
   - component: {fileID: 364087329}
   - component: {fileID: 364087328}
   - component: {fileID: 364087327}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4163,6 +4184,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &364087328
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4256,7 +4278,7 @@ GameObject:
   - component: {fileID: 370335268}
   - component: {fileID: 370335267}
   - component: {fileID: 370335266}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (19)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -4278,6 +4300,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &370335267
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4368,7 +4391,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399261137}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Burgers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4595,26 +4618,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 422951374}
-  - component: {fileID: 422951373}
   m_Layer: 5
   m_Name: ScreenManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &422951373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422951372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79df9877324b89e428b74640fa58c88a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_IsActive: 0
 --- !u!224 &422951374
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4646,9 +4656,9 @@ GameObject:
   - component: {fileID: 427887818}
   - component: {fileID: 427887817}
   - component: {fileID: 427887816}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: vhs (2)
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4660,7 +4670,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427887815}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -4668,6 +4678,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!60 &427887817
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4678,7 +4689,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4920,7 +4931,7 @@ GameObject:
   - component: {fileID: 430728323}
   - component: {fileID: 430728322}
   - component: {fileID: 430728321}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (52)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -4942,6 +4953,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &430728322
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5035,7 +5047,7 @@ GameObject:
   - component: {fileID: 436335546}
   - component: {fileID: 436335545}
   - component: {fileID: 436335544}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5057,6 +5069,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &436335545
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5150,7 +5163,7 @@ GameObject:
   - component: {fileID: 440471939}
   - component: {fileID: 440471938}
   - component: {fileID: 440471937}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (26)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -5172,6 +5185,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &440471938
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5398,7 +5412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4590a01e94ca7c4288bc3aae1145c15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 3
   speedMultiplier: 1.5
   speedIncreaseMilestone: 50
   jumpForce: 6
@@ -5424,7 +5438,7 @@ GameObject:
   - component: {fileID: 454353484}
   - component: {fileID: 454353483}
   - component: {fileID: 454353482}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (48)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -5446,6 +5460,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &454353483
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5539,7 +5554,7 @@ GameObject:
   - component: {fileID: 461707430}
   - component: {fileID: 461707429}
   - component: {fileID: 461707428}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (50)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -5561,6 +5576,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &461707429
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5882,7 +5898,7 @@ GameObject:
   - component: {fileID: 488312865}
   - component: {fileID: 488312864}
   - component: {fileID: 488312863}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5904,6 +5920,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &488312864
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6119,9 +6136,9 @@ GameObject:
   - component: {fileID: 509571716}
   - component: {fileID: 509571718}
   - component: {fileID: 509571719}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: pofak (1)
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6201,7 +6218,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6247,7 +6264,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509571715}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -6255,6 +6272,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &511023986
 GameObject:
   m_ObjectHideFlags: 0
@@ -6267,9 +6285,9 @@ GameObject:
   - component: {fileID: 511023987}
   - component: {fileID: 511023989}
   - component: {fileID: 511023990}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: livan
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6349,7 +6367,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6383,7 +6401,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511023986}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -6391,6 +6409,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &519304749
 GameObject:
   m_ObjectHideFlags: 0
@@ -6403,7 +6422,7 @@ GameObject:
   - component: {fileID: 519304752}
   - component: {fileID: 519304751}
   - component: {fileID: 519304750}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (67)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -6425,6 +6444,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &519304751
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6518,6 +6538,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6597,13 +6618,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 50, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 982773692}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 831762018}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77f039193fdff94e849a4738d9e2e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &531456365
 GameObject:
   m_ObjectHideFlags: 0
@@ -6616,7 +6649,7 @@ GameObject:
   - component: {fileID: 531456368}
   - component: {fileID: 531456367}
   - component: {fileID: 531456366}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (30)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -6638,6 +6671,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &531456367
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6730,43 +6764,13 @@ GameObject:
   - component: {fileID: 535075275}
   - component: {fileID: 535075274}
   - component: {fileID: 535075273}
-  - component: {fileID: 535075272}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: adams khersi (1)
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &535075272
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535075271}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 1.63}
-    newSize: {x: 2.56, y: 1.63}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -1.28, y: 0.815}
-      - {x: -1.28, y: -0.815}
-      - {x: 1.28, y: -0.815}
-      - {x: 1.28, y: 0.815}
 --- !u!114 &535075273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6774,14 +6778,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535075271}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreToGive: -10
-  enemy: 0
+  enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!212 &535075274
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6859,7 +6864,7 @@ GameObject:
   - component: {fileID: 550726004}
   - component: {fileID: 550726003}
   - component: {fileID: 550726002}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (76)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -6881,6 +6886,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &550726003
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6974,7 +6980,7 @@ GameObject:
   - component: {fileID: 569714833}
   - component: {fileID: 569714832}
   - component: {fileID: 569714831}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6996,6 +7002,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &569714832
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7155,7 +7162,7 @@ GameObject:
   - component: {fileID: 603722297}
   - component: {fileID: 603722296}
   - component: {fileID: 603722295}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (81)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -7177,6 +7184,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &603722296
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7270,7 +7278,7 @@ GameObject:
   - component: {fileID: 606971520}
   - component: {fileID: 606971519}
   - component: {fileID: 606971518}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7292,6 +7300,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &606971519
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7821,7 +7830,7 @@ GameObject:
   - component: {fileID: 616052101}
   - component: {fileID: 616052100}
   - component: {fileID: 616052099}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7843,6 +7852,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &616052100
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7968,7 +7978,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thePlayer: {fileID: 445383502}
-  theDeathScreen: {fileID: 0}
+  theDeathScreen: {fileID: 857461697}
+--- !u!1 &631024049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 631024050}
+  m_Layer: 5
+  m_Name: WinScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &631024050
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631024049}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1961783734}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.5, y: -0.375}
+  m_SizeDelta: {x: -1044, y: -342}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &640150242
 GameObject:
   m_ObjectHideFlags: 0
@@ -7981,7 +8026,7 @@ GameObject:
   - component: {fileID: 640150245}
   - component: {fileID: 640150244}
   - component: {fileID: 640150243}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (69)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -8003,6 +8048,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &640150244
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8238,7 +8284,7 @@ GameObject:
   - component: {fileID: 673876415}
   - component: {fileID: 673876414}
   - component: {fileID: 673876413}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (31)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -8260,6 +8306,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &673876414
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8353,7 +8400,7 @@ GameObject:
   - component: {fileID: 676554379}
   - component: {fileID: 676554378}
   - component: {fileID: 676554377}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (73)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -8375,6 +8422,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &676554378
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8550,7 +8598,7 @@ GameObject:
   - component: {fileID: 681454249}
   - component: {fileID: 681454248}
   - component: {fileID: 681454247}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (42)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -8572,6 +8620,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &681454248
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8665,7 +8714,7 @@ GameObject:
   - component: {fileID: 713294505}
   - component: {fileID: 713294504}
   - component: {fileID: 713294503}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8687,6 +8736,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &713294504
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8780,7 +8830,7 @@ GameObject:
   - component: {fileID: 716928918}
   - component: {fileID: 716928917}
   - component: {fileID: 716928916}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8802,6 +8852,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &716928917
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8895,7 +8946,7 @@ GameObject:
   - component: {fileID: 717835837}
   - component: {fileID: 717835836}
   - component: {fileID: 717835835}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (20)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -8917,6 +8968,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &717835836
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9010,7 +9062,7 @@ GameObject:
   - component: {fileID: 726318263}
   - component: {fileID: 726318262}
   - component: {fileID: 726318261}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9032,6 +9084,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &726318262
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9155,7 +9208,7 @@ GameObject:
   - component: {fileID: 742765506}
   - component: {fileID: 742765505}
   - component: {fileID: 742765504}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9177,6 +9230,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &742765505
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9270,7 +9324,7 @@ GameObject:
   - component: {fileID: 772676191}
   - component: {fileID: 772676190}
   - component: {fileID: 772676189}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (3)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -9292,6 +9346,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &772676190
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9385,7 +9440,7 @@ GameObject:
   - component: {fileID: 778975702}
   - component: {fileID: 778975701}
   - component: {fileID: 778975700}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9407,6 +9462,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &778975701
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9500,7 +9556,7 @@ GameObject:
   - component: {fileID: 779563642}
   - component: {fileID: 779563641}
   - component: {fileID: 779563640}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (17)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -9522,6 +9578,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &779563641
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9697,7 +9754,7 @@ GameObject:
   - component: {fileID: 789287068}
   - component: {fileID: 789287067}
   - component: {fileID: 789287066}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9719,6 +9776,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &789287067
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9812,7 +9870,7 @@ GameObject:
   - component: {fileID: 792891617}
   - component: {fileID: 792891616}
   - component: {fileID: 792891615}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9834,6 +9892,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &792891616
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9914,6 +9973,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1438692465}
   m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &831762017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 831762018}
+  m_Layer: 0
+  m_Name: CameraHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &831762018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831762017}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 50, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 519420032}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &835967121
 GameObject:
@@ -10308,7 +10398,7 @@ GameObject:
   - component: {fileID: 850784496}
   - component: {fileID: 850784495}
   - component: {fileID: 850784494}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (47)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -10330,6 +10420,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &850784495
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10411,6 +10502,57 @@ Transform:
   m_Father: {fileID: 399261137}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &857461695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 857461696}
+  - component: {fileID: 857461697}
+  m_Layer: 5
+  m_Name: DeathMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &857461696
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857461695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2047339090}
+  - {fileID: 1454088489}
+  m_Father: {fileID: 1961783734}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -1044, y: -342}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &857461697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857461695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb35f00daa40294cb734379a17254e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuLevel: Endless
 --- !u!1 &864657841
 GameObject:
   m_ObjectHideFlags: 0
@@ -10423,7 +10565,7 @@ GameObject:
   - component: {fileID: 864657844}
   - component: {fileID: 864657843}
   - component: {fileID: 864657842}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (83)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -10445,6 +10587,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &864657843
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10694,7 +10837,7 @@ GameObject:
   - component: {fileID: 889304453}
   - component: {fileID: 889304452}
   - component: {fileID: 889304451}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10716,6 +10859,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &889304452
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10809,7 +10953,7 @@ GameObject:
   - component: {fileID: 890518408}
   - component: {fileID: 890518407}
   - component: {fileID: 890518406}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10831,6 +10975,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &890518407
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11036,7 +11181,7 @@ GameObject:
   - component: {fileID: 909601104}
   - component: {fileID: 909601103}
   - component: {fileID: 909601102}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11058,6 +11203,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &909601103
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11151,7 +11297,7 @@ GameObject:
   - component: {fileID: 920065167}
   - component: {fileID: 920065166}
   - component: {fileID: 920065165}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11173,6 +11319,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &920065166
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11266,7 +11413,7 @@ GameObject:
   - component: {fileID: 930214716}
   - component: {fileID: 930214715}
   - component: {fileID: 930214714}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (34)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -11288,6 +11435,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &930214715
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11932,7 +12080,7 @@ GameObject:
   - component: {fileID: 971025435}
   - component: {fileID: 971025434}
   - component: {fileID: 971025433}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11954,6 +12102,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &971025434
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12104,7 +12253,7 @@ GameObject:
   - component: {fileID: 988426879}
   - component: {fileID: 988426878}
   - component: {fileID: 988426877}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (44)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -12126,6 +12275,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &988426878
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12219,7 +12369,7 @@ GameObject:
   - component: {fileID: 1002175972}
   - component: {fileID: 1002175971}
   - component: {fileID: 1002175970}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (33)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -12241,6 +12391,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1002175971
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12334,7 +12485,7 @@ GameObject:
   - component: {fileID: 1004857755}
   - component: {fileID: 1004857754}
   - component: {fileID: 1004857753}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12356,6 +12507,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1004857754
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12449,7 +12601,7 @@ GameObject:
   - component: {fileID: 1010087891}
   - component: {fileID: 1010087890}
   - component: {fileID: 1010087889}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (18)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -12471,6 +12623,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1010087890
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12621,7 +12774,7 @@ GameObject:
   - component: {fileID: 1036188107}
   - component: {fileID: 1036188106}
   - component: {fileID: 1036188105}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12643,6 +12796,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1036188106
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12736,9 +12890,9 @@ GameObject:
   - component: {fileID: 1087536168}
   - component: {fileID: 1087536167}
   - component: {fileID: 1087536166}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: caset
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12750,7 +12904,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087536165}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -12758,6 +12912,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!61 &1087536167
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12861,7 +13016,7 @@ GameObject:
   - component: {fileID: 1093463507}
   - component: {fileID: 1093463506}
   - component: {fileID: 1093463505}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (36)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -12883,6 +13038,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1093463506
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13167,9 +13323,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1164179948}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: doshman ha
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13213,7 +13369,7 @@ GameObject:
   - component: {fileID: 1174179422}
   - component: {fileID: 1174179421}
   - component: {fileID: 1174179420}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (24)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -13235,6 +13391,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1174179421
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13328,7 +13485,7 @@ GameObject:
   - component: {fileID: 1179542433}
   - component: {fileID: 1179542432}
   - component: {fileID: 1179542431}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13350,6 +13507,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1179542432
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13443,7 +13601,7 @@ GameObject:
   - component: {fileID: 1180541529}
   - component: {fileID: 1180541528}
   - component: {fileID: 1180541527}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (60)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -13465,6 +13623,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1180541528
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13558,7 +13717,7 @@ GameObject:
   - component: {fileID: 1191983863}
   - component: {fileID: 1191983862}
   - component: {fileID: 1191983861}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (71)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -13580,6 +13739,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1191983862
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13673,7 +13833,7 @@ GameObject:
   - component: {fileID: 1193909748}
   - component: {fileID: 1193909747}
   - component: {fileID: 1193909746}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13695,6 +13855,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1193909747
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13788,7 +13949,7 @@ GameObject:
   - component: {fileID: 1201843909}
   - component: {fileID: 1201843908}
   - component: {fileID: 1201843907}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13810,6 +13971,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1201843908
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14342,7 +14504,7 @@ GameObject:
   - component: {fileID: 1219984758}
   - component: {fileID: 1219984757}
   - component: {fileID: 1219984756}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (74)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -14364,6 +14526,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1219984757
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14539,7 +14702,7 @@ GameObject:
   - component: {fileID: 1245176682}
   - component: {fileID: 1245176681}
   - component: {fileID: 1245176680}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14561,6 +14724,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1245176681
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14654,7 +14818,7 @@ GameObject:
   - component: {fileID: 1246403128}
   - component: {fileID: 1246403127}
   - component: {fileID: 1246403126}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14676,6 +14840,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1246403127
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15020,7 +15185,7 @@ GameObject:
   - component: {fileID: 1297974923}
   - component: {fileID: 1297974922}
   - component: {fileID: 1297974921}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15042,6 +15207,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1297974922
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15135,7 +15301,7 @@ GameObject:
   - component: {fileID: 1301740726}
   - component: {fileID: 1301740725}
   - component: {fileID: 1301740724}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15157,6 +15323,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1301740725
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15250,7 +15417,7 @@ GameObject:
   - component: {fileID: 1311216587}
   - component: {fileID: 1311216586}
   - component: {fileID: 1311216585}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15272,6 +15439,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1311216586
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15559,7 +15727,7 @@ GameObject:
   - component: {fileID: 1322078372}
   - component: {fileID: 1322078371}
   - component: {fileID: 1322078370}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15581,6 +15749,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1322078371
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15674,7 +15843,7 @@ GameObject:
   - component: {fileID: 1322291220}
   - component: {fileID: 1322291223}
   - component: {fileID: 1322291222}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15761,6 +15930,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1322291223
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15789,7 +15959,7 @@ GameObject:
   - component: {fileID: 1327826509}
   - component: {fileID: 1327826508}
   - component: {fileID: 1327826507}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (80)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -15811,6 +15981,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1327826508
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16031,7 +16202,7 @@ GameObject:
   - component: {fileID: 1338673122}
   - component: {fileID: 1338673121}
   - component: {fileID: 1338673120}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (58)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -16053,6 +16224,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1338673121
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16667,7 +16839,7 @@ GameObject:
   - component: {fileID: 1367353233}
   - component: {fileID: 1367353232}
   - component: {fileID: 1367353231}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16689,6 +16861,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1367353232
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16864,7 +17037,7 @@ GameObject:
   - component: {fileID: 1380545294}
   - component: {fileID: 1380545293}
   - component: {fileID: 1380545292}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (68)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -16886,6 +17059,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1380545293
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16979,7 +17153,7 @@ GameObject:
   - component: {fileID: 1394653387}
   - component: {fileID: 1394653386}
   - component: {fileID: 1394653385}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (63)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -17001,6 +17175,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1394653386
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17206,7 +17381,7 @@ GameObject:
   - component: {fileID: 1410718343}
   - component: {fileID: 1410718342}
   - component: {fileID: 1410718341}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17228,6 +17403,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1410718342
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17318,7 +17494,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1438692465}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Tomatoes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17536,7 +17712,7 @@ GameObject:
   - component: {fileID: 1450647531}
   - component: {fileID: 1450647530}
   - component: {fileID: 1450647529}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (78)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -17558,6 +17734,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1450647530
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17639,6 +17816,137 @@ Transform:
   m_Father: {fileID: 399261137}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1454088488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1454088489}
+  - component: {fileID: 1454088492}
+  - component: {fileID: 1454088491}
+  - component: {fileID: 1454088490}
+  m_Layer: 5
+  m_Name: Restart Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1454088489
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454088488}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 857461696}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -19.6, y: -118.04}
+  m_SizeDelta: {x: 136.10443, y: -45.05275}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1454088490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454088488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1454088491}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 857461697}
+        m_TargetAssemblyTypeName: DeathMenu, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1454088491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454088488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1454088492
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454088488}
+  m_CullTransparentMesh: 0
 --- !u!1 &1494532382
 GameObject:
   m_ObjectHideFlags: 0
@@ -18159,7 +18467,7 @@ GameObject:
   - component: {fileID: 1517822054}
   - component: {fileID: 1517822053}
   - component: {fileID: 1517822052}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (43)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -18181,6 +18489,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1517822053
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18274,7 +18583,7 @@ GameObject:
   - component: {fileID: 1530790104}
   - component: {fileID: 1530790103}
   - component: {fileID: 1530790102}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18296,6 +18605,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1530790103
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18389,7 +18699,7 @@ GameObject:
   - component: {fileID: 1531931159}
   - component: {fileID: 1531931158}
   - component: {fileID: 1531931157}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18411,6 +18721,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1531931158
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18504,7 +18815,7 @@ GameObject:
   - component: {fileID: 1537612224}
   - component: {fileID: 1537612223}
   - component: {fileID: 1537612222}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (46)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -18526,6 +18837,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1537612223
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18728,7 +19040,7 @@ GameObject:
   - component: {fileID: 1546140701}
   - component: {fileID: 1546140700}
   - component: {fileID: 1546140699}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (65)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -18750,6 +19062,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1546140700
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18843,9 +19156,9 @@ GameObject:
   - component: {fileID: 1550739526}
   - component: {fileID: 1550739529}
   - component: {fileID: 1550739528}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: vhs
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18922,7 +19235,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550739525}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -18930,6 +19243,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!60 &1550739529
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -18940,7 +19254,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -18972,7 +19286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1557441435}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 50s
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19008,9 +19322,9 @@ GameObject:
   - component: {fileID: 1564345514}
   - component: {fileID: 1564345516}
   - component: {fileID: 1564345517}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: pofak
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19090,7 +19404,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -19136,7 +19450,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564345513}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -19144,6 +19458,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &1568913812
 GameObject:
   m_ObjectHideFlags: 0
@@ -19156,7 +19471,7 @@ GameObject:
   - component: {fileID: 1568913815}
   - component: {fileID: 1568913814}
   - component: {fileID: 1568913813}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (40)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -19178,6 +19493,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1568913814
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19271,7 +19587,7 @@ GameObject:
   - component: {fileID: 1572675606}
   - component: {fileID: 1572675605}
   - component: {fileID: 1572675604}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (64)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -19293,6 +19609,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1572675605
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19468,9 +19785,9 @@ GameObject:
   - component: {fileID: 1589550979}
   - component: {fileID: 1589550978}
   - component: {fileID: 1589550977}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ferfere (1)
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19482,7 +19799,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589550976}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -19490,6 +19807,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!60 &1589550978
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -19500,7 +19818,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -19654,7 +19972,7 @@ GameObject:
   - component: {fileID: 1601708037}
   - component: {fileID: 1601708036}
   - component: {fileID: 1601708035}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (28)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -19676,6 +19994,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1601708036
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19769,7 +20088,7 @@ GameObject:
   - component: {fileID: 1601769919}
   - component: {fileID: 1601769918}
   - component: {fileID: 1601769917}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 50 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19791,6 +20110,7 @@ MonoBehaviour:
   scoreToGive: 50
   enemy: 0
   Fifth: 1
+  cameraShake: {fileID: 0}
 --- !u!58 &1601769918
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19884,7 +20204,7 @@ GameObject:
   - component: {fileID: 1613607889}
   - component: {fileID: 1613607888}
   - component: {fileID: 1613607887}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19906,6 +20226,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1613607888
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19999,7 +20320,7 @@ GameObject:
   - component: {fileID: 1632672586}
   - component: {fileID: 1632672585}
   - component: {fileID: 1632672584}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20021,6 +20342,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1632672585
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20114,7 +20436,7 @@ GameObject:
   - component: {fileID: 1647206366}
   - component: {fileID: 1647206365}
   - component: {fileID: 1647206364}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (35)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -20136,6 +20458,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1647206365
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20665,7 +20988,7 @@ GameObject:
   - component: {fileID: 1649396900}
   - component: {fileID: 1649396899}
   - component: {fileID: 1649396898}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20687,6 +21010,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1649396899
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20889,7 +21213,7 @@ GameObject:
   - component: {fileID: 1667298775}
   - component: {fileID: 1667298774}
   - component: {fileID: 1667298773}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (79)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -20911,6 +21235,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1667298774
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21131,9 +21456,9 @@ GameObject:
   - component: {fileID: 1712561596}
   - component: {fileID: 1712561598}
   - component: {fileID: 1712561599}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: vhs (1)
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21213,7 +21538,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -21243,7 +21568,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712561595}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -21251,6 +21576,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &1715556494
 GameObject:
   m_ObjectHideFlags: 0
@@ -21263,7 +21589,7 @@ GameObject:
   - component: {fileID: 1715556497}
   - component: {fileID: 1715556496}
   - component: {fileID: 1715556495}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21285,6 +21611,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1715556496
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21457,9 +21784,9 @@ GameObject:
   - component: {fileID: 1759661651}
   - component: {fileID: 1759661653}
   - component: {fileID: 1759661654}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: hotdog
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21539,7 +21866,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -21660,7 +21987,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759661650}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -21668,6 +21995,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &1769198303
 GameObject:
   m_ObjectHideFlags: 0
@@ -21680,7 +22008,7 @@ GameObject:
   - component: {fileID: 1769198306}
   - component: {fileID: 1769198305}
   - component: {fileID: 1769198304}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (25)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -21702,6 +22030,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1769198305
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21795,7 +22124,7 @@ GameObject:
   - component: {fileID: 1805182190}
   - component: {fileID: 1805182189}
   - component: {fileID: 1805182188}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (14)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -21817,6 +22146,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1805182189
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21910,7 +22240,7 @@ GameObject:
   - component: {fileID: 1807058232}
   - component: {fileID: 1807058231}
   - component: {fileID: 1807058230}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21932,6 +22262,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1807058231
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22025,7 +22356,7 @@ GameObject:
   - component: {fileID: 1809109800}
   - component: {fileID: 1809109799}
   - component: {fileID: 1809109798}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22047,6 +22378,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1809109799
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22248,7 +22580,7 @@ GameObject:
   - component: {fileID: 1811732288}
   - component: {fileID: 1811732287}
   - component: {fileID: 1811732286}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22270,6 +22602,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1811732287
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22363,7 +22696,7 @@ GameObject:
   - component: {fileID: 1822178857}
   - component: {fileID: 1822178856}
   - component: {fileID: 1822178855}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22385,6 +22718,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1822178856
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22478,7 +22812,7 @@ GameObject:
   - component: {fileID: 1834467612}
   - component: {fileID: 1834467611}
   - component: {fileID: 1834467610}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22500,6 +22834,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1834467611
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22593,7 +22928,7 @@ GameObject:
   - component: {fileID: 1835714894}
   - component: {fileID: 1835714893}
   - component: {fileID: 1835714892}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (61)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -22615,6 +22950,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1835714893
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22708,7 +23044,7 @@ GameObject:
   - component: {fileID: 1838979444}
   - component: {fileID: 1838979443}
   - component: {fileID: 1838979442}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (54)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -22730,6 +23066,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1838979443
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22823,7 +23160,7 @@ GameObject:
   - component: {fileID: 1849192637}
   - component: {fileID: 1849192639}
   - component: {fileID: 1849192640}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (2)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -22926,6 +23263,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &1875765346
 GameObject:
   m_ObjectHideFlags: 0
@@ -22938,7 +23276,7 @@ GameObject:
   - component: {fileID: 1875765349}
   - component: {fileID: 1875765348}
   - component: {fileID: 1875765347}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (29)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -22960,6 +23298,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1875765348
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23053,7 +23392,7 @@ GameObject:
   - component: {fileID: 1889115948}
   - component: {fileID: 1889115951}
   - component: {fileID: 1889115950}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 50 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23140,6 +23479,7 @@ MonoBehaviour:
   scoreToGive: 50
   enemy: 0
   Fifth: 1
+  cameraShake: {fileID: 0}
 --- !u!58 &1889115951
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23168,9 +23508,9 @@ GameObject:
   - component: {fileID: 1893060745}
   - component: {fileID: 1893060748}
   - component: {fileID: 1893060747}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: adams khersi
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23276,14 +23616,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893060744}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreToGive: -10
-  enemy: 0
+  enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &1897295230
 GameObject:
   m_ObjectHideFlags: 0
@@ -23296,7 +23637,7 @@ GameObject:
   - component: {fileID: 1897295233}
   - component: {fileID: 1897295232}
   - component: {fileID: 1897295231}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (15)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -23318,6 +23659,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1897295232
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23411,7 +23753,7 @@ GameObject:
   - component: {fileID: 1910877605}
   - component: {fileID: 1910877604}
   - component: {fileID: 1910877603}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (59)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -23433,6 +23775,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1910877604
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23526,7 +23869,7 @@ GameObject:
   - component: {fileID: 1916403694}
   - component: {fileID: 1916403693}
   - component: {fileID: 1916403692}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23548,6 +23891,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1916403693
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23850,7 +24194,7 @@ GameObject:
   - component: {fileID: 1956726847}
   - component: {fileID: 1956726846}
   - component: {fileID: 1956726845}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (37)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -23872,6 +24216,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1956726846
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24046,6 +24391,8 @@ RectTransform:
   - {fileID: 54074631}
   - {fileID: 1721847345}
   - {fileID: 1952325477}
+  - {fileID: 857461696}
+  - {fileID: 631024050}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24066,7 +24413,7 @@ GameObject:
   - component: {fileID: 1976353984}
   - component: {fileID: 1976353983}
   - component: {fileID: 1976353982}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (21)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -24088,6 +24435,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1976353983
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24181,7 +24529,7 @@ GameObject:
   - component: {fileID: 1978080130}
   - component: {fileID: 1978080129}
   - component: {fileID: 1978080128}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24203,6 +24551,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1978080129
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24296,7 +24645,7 @@ GameObject:
   - component: {fileID: 1982985565}
   - component: {fileID: 1982985564}
   - component: {fileID: 1982985563}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24318,6 +24667,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1982985564
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24523,7 +24873,7 @@ GameObject:
   - component: {fileID: 1989986034}
   - component: {fileID: 1989986033}
   - component: {fileID: 1989986032}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (49)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -24545,6 +24895,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1989986033
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24638,7 +24989,7 @@ GameObject:
   - component: {fileID: 1996922721}
   - component: {fileID: 1996922720}
   - component: {fileID: 1996922719}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (56)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -24660,6 +25011,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1996922720
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24753,7 +25105,7 @@ GameObject:
   - component: {fileID: 2015533706}
   - component: {fileID: 2015533705}
   - component: {fileID: 2015533704}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24775,6 +25127,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2015533705
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24868,7 +25221,7 @@ GameObject:
   - component: {fileID: 2016755053}
   - component: {fileID: 2016755052}
   - component: {fileID: 2016755051}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (75)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -24890,6 +25243,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2016755052
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24983,7 +25337,7 @@ GameObject:
   - component: {fileID: 2018484104}
   - component: {fileID: 2018484103}
   - component: {fileID: 2018484102}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (23)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -25005,6 +25359,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2018484103
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25098,9 +25453,9 @@ GameObject:
   - component: {fileID: 2025571833}
   - component: {fileID: 2025571835}
   - component: {fileID: 2025571836}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ball
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25180,7 +25535,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -25245,7 +25600,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025571832}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -25253,6 +25608,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &2039061230
 GameObject:
   m_ObjectHideFlags: 0
@@ -25265,7 +25621,7 @@ GameObject:
   - component: {fileID: 2039061233}
   - component: {fileID: 2039061232}
   - component: {fileID: 2039061231}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25287,6 +25643,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2039061232
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25368,6 +25725,81 @@ Transform:
   m_Father: {fileID: 1438692465}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2047339089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2047339090}
+  - component: {fileID: 2047339092}
+  - component: {fileID: 2047339091}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2047339090
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047339089}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 857461696}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.7999878, y: -0.7999878}
+  m_SizeDelta: {x: 1294.8226, y: 444.79166}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2047339091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047339089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.85882354}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 20c04d54897bc3a43819a86ab079be5f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2047339092
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047339089}
+  m_CullTransparentMesh: 0
 --- !u!1 &2074230355
 GameObject:
   m_ObjectHideFlags: 0
@@ -25380,7 +25812,7 @@ GameObject:
   - component: {fileID: 2074230358}
   - component: {fileID: 2074230357}
   - component: {fileID: 2074230356}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (27)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -25402,6 +25834,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2074230357
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25495,7 +25928,7 @@ GameObject:
   - component: {fileID: 2082833991}
   - component: {fileID: 2082833990}
   - component: {fileID: 2082833989}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (51)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -25517,6 +25950,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2082833990
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25610,7 +26044,7 @@ GameObject:
   - component: {fileID: 2086914518}
   - component: {fileID: 2086914517}
   - component: {fileID: 2086914516}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25632,6 +26066,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2086914517
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25725,7 +26160,7 @@ GameObject:
   - component: {fileID: 2099720649}
   - component: {fileID: 2099720648}
   - component: {fileID: 2099720647}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (53)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -25747,6 +26182,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2099720648
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25840,7 +26276,7 @@ GameObject:
   - component: {fileID: 2102960806}
   - component: {fileID: 2102960805}
   - component: {fileID: 2102960804}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (70)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -25862,6 +26298,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2102960805
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26037,7 +26474,7 @@ GameObject:
   - component: {fileID: 2120560138}
   - component: {fileID: 2120560137}
   - component: {fileID: 2120560136}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (57)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -26059,6 +26496,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2120560137
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26152,7 +26590,7 @@ GameObject:
   - component: {fileID: 2133388068}
   - component: {fileID: 2133388067}
   - component: {fileID: 2133388066}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26174,6 +26612,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2133388067
 CircleCollider2D:
   m_ObjectHideFlags: 0

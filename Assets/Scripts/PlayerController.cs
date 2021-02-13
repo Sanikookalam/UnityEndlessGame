@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
 
          myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
         
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.UpArrow))
         //if (Input.anyKeyDown)
         {
             if (grounded)
@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if((Input.GetKey (KeyCode.Space) || Input.GetMouseButton(0)) && !stoppedJumping)
+        if((Input.GetKey (KeyCode.Space) || Input.GetMouseButton(0) || Input.GetKey(KeyCode.UpArrow)) && !stoppedJumping)
         //if(Input.anyKey)
         {
             if(jumpTimeCounter > 0)
@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.Space) || Input.GetMouseButtonUp(0))
+        if (Input.GetKeyUp(KeyCode.Space) || Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.UpArrow))
         //if (Input.anyKey)
         {
             jumpTimeCounter = 0;
@@ -108,14 +108,29 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
+        // private bool hasEntered ;
+        // hasEntered = false;
+
         if(other.gameObject.tag == "killbox")
         {
-            moveSpeed = 5;
+            moveSpeed = 3;
             
             myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
 
             theGameManager.RestartGame();
             deathSound.Play();
+        }
+        // else if( other.gameObject.CompareTag("doshman") && !hasEntered)
+        // {
+        //     hasEntered = true;
+        //     moveSpeed = myRigidbody.velocity.x/2;
+        //     myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
+        // }
+        else if(other.gameObject.tag == "sofre")
+        {
+            moveSpeed = 0;
+            myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
+            theGameManager.Win();
         }
     }
 }
