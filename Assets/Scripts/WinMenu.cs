@@ -8,7 +8,7 @@ public class WinMenu : MonoBehaviour
 
     public void RestartGame()
     {
-        
+        FindObjectOfType<GameManager>().Reset();
     }
 
     public void QuitToMain()

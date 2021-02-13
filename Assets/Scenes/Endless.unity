@@ -8067,7 +8067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f9c8ea85eed43f499188370121a88b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuLevel: 
+  mainMenuLevel: Endless
 --- !u!1 &640150242
 GameObject:
   m_ObjectHideFlags: 0
