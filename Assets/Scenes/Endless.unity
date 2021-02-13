@@ -20048,8 +20048,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1589550980}
   - component: {fileID: 1589550979}
-  - component: {fileID: 1589550978}
   - component: {fileID: 1589550977}
+  - component: {fileID: 1589550978}
   m_Layer: 11
   m_Name: ferfere (1)
   m_TagString: doshman
@@ -20064,7 +20064,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589550976}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -20117,9 +20117,9 @@ PolygonCollider2D:
       - {x: 0.585, y: 0.56}
       - {x: 0.655, y: 0.75}
       - {x: 0.66499996, y: 0.78999996}
-      - {x: 0.515, y: 0.89}
-      - {x: 0.385, y: 0.89}
-      - {x: 0.355, y: 0.87}
+      - {x: 0.52655774, y: 0.89}
+      - {x: 0.4254521, y: 0.84953856}
+      - {x: 0.33188447, y: 0.80063754}
       - {x: 0.305, y: 0.72999996}
       - {x: 0.145, y: 0.31}
       - {x: 0.024999999, y: 0.03}
@@ -20155,11 +20155,13 @@ PolygonCollider2D:
     - - {x: -0.765, y: 0.21}
       - {x: -0.955, y: 0.21}
       - {x: -1.035, y: 0.14999999}
+      - {x: -1.0292068, y: -0.42399842}
       - {x: -1.035, y: 0.02}
       - {x: -1.015, y: 0.02}
       - {x: -0.98499995, y: 0.03}
+      - {x: -0.9438134, y: 0.10355683}
       - {x: -0.755, y: 0.17}
-      - {x: -0.755, y: 0.19}
+      - {x: 0.023404539, y: 0.27748096}
 --- !u!212 &1589550979
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20219,7 +20221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589550976}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.2480164, y: -0.22455603, z: 4.2992277}
+  m_LocalPosition: {x: -6.2480164, y: -0.205, z: 4.2992277}
   m_LocalScale: {x: 0.73932356, y: 0.73932356, z: 0.73932356}
   m_Children: []
   m_Father: {fileID: 1164179948}
