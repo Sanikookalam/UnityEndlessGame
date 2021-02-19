@@ -124,7 +124,6 @@ public class PlayerController : MonoBehaviour
 
         if(other.gameObject.tag == "killbox")
         {
-            moveSpeed = 3;
             
             myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
 
@@ -135,7 +134,7 @@ public class PlayerController : MonoBehaviour
         {
             scoreToGive = -10;
             theScoreManager.AddScore(scoreToGive);
-            moveSpeed = 3;
+            moveSpeed = 4;
             myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
             enemySound.Play();
         }
