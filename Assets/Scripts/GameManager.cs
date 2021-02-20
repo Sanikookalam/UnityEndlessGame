@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -11,6 +13,9 @@ public class GameManager : MonoBehaviour
     private ScoreManager theScoreManager;
 
     public DeathMenu theDeathScreen; 
+    //public SetActive setActive;
+
+    public WinMenu theWinMenu;
 
 
     // Start is called before the first frame update
@@ -38,13 +43,19 @@ public class GameManager : MonoBehaviour
         theDeathScreen.gameObject.SetActive(true);
     }
 
+    public void Win()
+    {
+        theWinMenu.gameObject.SetActive(true);
+    }
+
     public void Reset()
     {
         theDeathScreen.gameObject.SetActive(false);
         thePlayer.transform.position = playerStartPoint;
         thePlayer.gameObject.SetActive(true);
-
+        //setActive.active();
         theScoreManager.scoreCount = 0;
+         SceneManager.LoadScene("Endless");
     }
 
     /*public IEnumerator RestartGameCo()

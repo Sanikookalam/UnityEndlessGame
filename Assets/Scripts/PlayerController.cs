@@ -25,16 +25,27 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius;
 
     private Collider2D myCollider;
+    //public bool hasEntered;
 
     public GameManager theGameManager;
 
     public AudioSource jumpSound;
     public AudioSource deathSound;
+    private AudioSource enemySound;
+    private AudioSource TashvighSound;
+
+
+    private ScoreManager theScoreManager;
+    public int scoreToGive;
 
     // Start is called before the first frame update
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D> ();
+        theScoreManager = FindObjectOfType<ScoreManager>();
+        theGameManager = FindObjectOfType<GameManager>();
+        enemySound = GameObject.Find("EnemySound").GetComponent<AudioSource>();
+        TashvighSound = GameObject.Find("Tashvigh").GetComponent<AudioSource>();
 
         //myCollider = GetComponent<Collider2D> ();
 
@@ -62,7 +73,7 @@ public class PlayerController : MonoBehaviour
 
          myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
         
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.UpArrow))
         //if (Input.anyKeyDown)
         {
             if (grounded)
@@ -80,7 +91,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if((Input.GetKey (KeyCode.Space) || Input.GetMouseButton(0)) && !stoppedJumping)
+        if((Input.GetKey (KeyCode.Space) || Input.GetMouseButton(0) || Input.GetKey(KeyCode.UpArrow)) && !stoppedJumping)
         //if(Input.anyKey)
         {
             if(jumpTimeCounter > 0)
@@ -90,7 +101,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyUp(KeyCode.Space) || Input.GetMouseButtonUp(0))
+        if (Input.GetKeyUp(KeyCode.Space) || Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.UpArrow))
         //if (Input.anyKey)
         {
             jumpTimeCounter = 0;
@@ -108,14 +119,36 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
+        // private bool hasEntered ;
+        // hasEntered = false;
+
         if(other.gameObject.tag == "killbox")
         {
-            moveSpeed = 5;
-            
             myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
-
             theGameManager.RestartGame();
             deathSound.Play();
+            theScoreManager.hiScoreCount = 0;
+        }
+        else if( (other.gameObject.tag == "doshman"))
+        {
+            scoreToGive = -10;
+            theScoreManager.AddScore(scoreToGive);
+            moveSpeed = 4;
+            myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
+            enemySound.Play();
+            theScoreManager.hiScoreCount += scoreToGive;
+        }
+        else if(other.gameObject.tag == "sofre")
+        {
+            TashvighSound.Play();
+            moveSpeed = 0;
+            myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
+            theGameManager.Win();
+            if(theScoreManager.hiScoreCount > theScoreManager.endHiScoreCount ){
+                theScoreManager.endHiScoreCount = theScoreManager.hiScoreCount;
+            }
+            PlayerPrefs.SetFloat("HighScore", theScoreManager.endHiScoreCount);
+
         }
     }
 }

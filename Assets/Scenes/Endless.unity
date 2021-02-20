@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 3435268}
   - component: {fileID: 3435267}
   - component: {fileID: 3435266}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 50 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,6 +157,7 @@ MonoBehaviour:
   scoreToGive: 50
   enemy: 0
   Fifth: 1
+  cameraShake: {fileID: 0}
 --- !u!58 &3435267
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -396,9 +397,9 @@ GameObject:
   - component: {fileID: 29356499}
   - component: {fileID: 29356501}
   - component: {fileID: 29356502}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: pak kon
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -478,7 +479,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -517,7 +518,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29356498}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -525,6 +526,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &50318433
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,7 +539,7 @@ GameObject:
   - component: {fileID: 50318436}
   - component: {fileID: 50318435}
   - component: {fileID: 50318434}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -559,6 +561,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &50318435
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -731,7 +734,7 @@ GameObject:
   - component: {fileID: 64935321}
   - component: {fileID: 64935320}
   - component: {fileID: 64935319}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -753,6 +756,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &64935320
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -846,7 +850,7 @@ GameObject:
   - component: {fileID: 74231190}
   - component: {fileID: 74231189}
   - component: {fileID: 74231188}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (82)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -868,6 +872,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &74231189
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1073,7 +1078,7 @@ GameObject:
   - component: {fileID: 103756722}
   - component: {fileID: 103756721}
   - component: {fileID: 103756720}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (41)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -1095,6 +1100,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &103756721
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1176,6 +1182,139 @@ Transform:
   m_Father: {fileID: 399261137}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &105703811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 105703812}
+  - component: {fileID: 105703815}
+  - component: {fileID: 105703814}
+  - component: {fileID: 105703813}
+  m_Layer: 11
+  m_Name: vhs (3)
+  m_TagString: doshman
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &105703812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105703811}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 155.9, y: 1.61, z: 4.2992277}
+  m_LocalScale: {x: 0.66709036, y: 0.66709036, z: 0.66709036}
+  m_Children: []
+  m_Father: {fileID: 1164179948}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &105703813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105703811}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreToGive: -10
+  enemy: 1
+  Fifth: 0
+  cameraShake: {fileID: 0}
+--- !u!60 &105703814
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105703811}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.62, y: 1.43}
+    newSize: {x: 2.62, y: 1.43}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.31, y: 0.715}
+      - {x: -1.31, y: -0.225}
+      - {x: -1.29, y: -0.645}
+      - {x: -1.1999999, y: -0.715}
+      - {x: 1.22, y: -0.715}
+      - {x: 1.28, y: -0.625}
+      - {x: 1.31, y: 0.055}
+      - {x: 1.31, y: 0.715}
+--- !u!212 &105703815
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105703811}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 93e89d2a894472f46ab681a62912295b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.62, y: 1.43}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &109110375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,7 +1500,7 @@ Transform:
   m_LocalScale: {x: 0.75393146, y: 0.75393146, z: 0.75393146}
   m_Children: []
   m_Father: {fileID: 315891024}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &109807835
 AudioSource:
@@ -1471,7 +1610,7 @@ GameObject:
   - component: {fileID: 141526898}
   - component: {fileID: 141526897}
   - component: {fileID: 141526896}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (72)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -1493,6 +1632,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &141526897
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1586,7 +1726,7 @@ GameObject:
   - component: {fileID: 142955980}
   - component: {fileID: 142955979}
   - component: {fileID: 142955978}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (62)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -1608,6 +1748,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &142955979
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1701,7 +1842,7 @@ GameObject:
   - component: {fileID: 155437625}
   - component: {fileID: 155437624}
   - component: {fileID: 155437623}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (66)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -1723,6 +1864,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &155437624
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1816,7 +1958,7 @@ GameObject:
   - component: {fileID: 170208549}
   - component: {fileID: 170208548}
   - component: {fileID: 170208547}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (55)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -1838,6 +1980,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &170208548
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2092,7 +2235,7 @@ GameObject:
   - component: {fileID: 187886497}
   - component: {fileID: 187886496}
   - component: {fileID: 187886495}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2114,6 +2257,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &187886496
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2207,7 +2351,7 @@ GameObject:
   - component: {fileID: 192122192}
   - component: {fileID: 192122191}
   - component: {fileID: 192122190}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (77)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -2229,6 +2373,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &192122191
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2322,7 +2467,7 @@ GameObject:
   - component: {fileID: 196833516}
   - component: {fileID: 196833515}
   - component: {fileID: 196833514}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (32)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -2344,6 +2489,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &196833515
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2873,7 +3019,7 @@ GameObject:
   - component: {fileID: 268818857}
   - component: {fileID: 268818856}
   - component: {fileID: 268818855}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (16)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -2895,6 +3041,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &268818856
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2988,7 +3135,7 @@ GameObject:
   - component: {fileID: 286165249}
   - component: {fileID: 286165248}
   - component: {fileID: 286165247}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3010,6 +3157,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &286165248
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3103,7 +3251,7 @@ GameObject:
   - component: {fileID: 302804440}
   - component: {fileID: 302804439}
   - component: {fileID: 302804438}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3125,6 +3273,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &302804439
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3218,7 +3367,7 @@ GameObject:
   - component: {fileID: 306438931}
   - component: {fileID: 306438930}
   - component: {fileID: 306438929}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3240,6 +3389,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &306438930
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3348,6 +3498,7 @@ Transform:
   m_LocalPosition: {x: -4.54, y: -1.24, z: 0}
   m_LocalScale: {x: 1.3263805, y: 1.3263805, z: 1.3263805}
   m_Children:
+  - {fileID: 1676577531}
   - {fileID: 109807834}
   - {fileID: 419346874}
   - {fileID: 1328703443}
@@ -3369,7 +3520,7 @@ GameObject:
   - component: {fileID: 319644111}
   - component: {fileID: 319644110}
   - component: {fileID: 319644109}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3391,6 +3542,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &319644110
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3596,7 +3748,7 @@ GameObject:
   - component: {fileID: 333263241}
   - component: {fileID: 333263240}
   - component: {fileID: 333263239}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (45)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -3618,6 +3770,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &333263240
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3711,7 +3864,7 @@ GameObject:
   - component: {fileID: 349144254}
   - component: {fileID: 349144253}
   - component: {fileID: 349144252}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (22)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -3733,6 +3886,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &349144253
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3827,7 +3981,7 @@ GameObject:
   - component: {fileID: 352276160}
   m_Layer: 8
   m_Name: sofre
-  m_TagString: Untagged
+  m_TagString: sofre
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3895,7 +4049,7 @@ Transform:
   m_LocalScale: {x: 1.3597019, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &352276160
 PolygonCollider2D:
@@ -4026,7 +4180,7 @@ GameObject:
   - component: {fileID: 356196176}
   - component: {fileID: 356196175}
   - component: {fileID: 356196174}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4048,6 +4202,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &356196175
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4141,7 +4296,7 @@ GameObject:
   - component: {fileID: 364087329}
   - component: {fileID: 364087328}
   - component: {fileID: 364087327}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4163,6 +4318,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &364087328
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4256,7 +4412,7 @@ GameObject:
   - component: {fileID: 370335268}
   - component: {fileID: 370335267}
   - component: {fileID: 370335266}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (19)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -4278,6 +4434,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &370335267
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4359,6 +4516,85 @@ Transform:
   m_Father: {fileID: 399261137}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &380431543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380431544}
+  - component: {fileID: 380431546}
+  - component: {fileID: 380431545}
+  m_Layer: 5
+  m_Name: High ScoreText (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &380431544
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380431543}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 631024050}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 63.8, y: -52.67}
+  m_SizeDelta: {x: 549.1814, y: 54.857895}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &380431545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380431543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Your Highest Score is : '
+--- !u!222 &380431546
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380431543}
+  m_CullTransparentMesh: 0
 --- !u!1 &399261136
 GameObject:
   m_ObjectHideFlags: 0
@@ -4368,7 +4604,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399261137}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Burgers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4457,8 +4693,197 @@ Transform:
   - {fileID: 603722298}
   - {fileID: 1327826510}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &410902802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410902803}
+  - component: {fileID: 410902806}
+  - component: {fileID: 410902805}
+  - component: {fileID: 410902804}
+  m_Layer: 11
+  m_Name: ferfere (2)
+  m_TagString: doshman
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &410902803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410902802}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 72.074, y: -0.362, z: 4.2992277}
+  m_LocalScale: {x: 0.60819346, y: 0.60819346, z: 0.60819346}
+  m_Children: []
+  m_Father: {fileID: 1164179948}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &410902804
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410902802}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.07, y: 2.02}
+    newSize: {x: 2.07, y: 2.02}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.155, y: -0.9}
+      - {x: -0.074999996, y: -0.9}
+      - {x: -0.055, y: -0.9}
+      - {x: 0.074999996, y: -0.79999995}
+      - {x: 0.16499999, y: -0.83}
+      - {x: 0.465, y: -0.9}
+      - {x: 0.60499996, y: -0.91999996}
+      - {x: 0.72499996, y: -0.94}
+      - {x: 1.005, y: -0.91999996}
+      - {x: 1.035, y: -0.88}
+      - {x: 1.035, y: -0.69}
+      - {x: 0.945, y: -0.62}
+      - {x: 0.525, y: -0.41}
+      - {x: 0.255, y: -0.29}
+      - {x: 0.345, y: -0.11}
+      - {x: 0.39499998, y: 0.049999997}
+      - {x: 0.585, y: 0.56}
+      - {x: 0.655, y: 0.75}
+      - {x: 0.66499996, y: 0.78999996}
+      - {x: 0.52655774, y: 0.89}
+      - {x: 0.4254521, y: 0.84953856}
+      - {x: 0.33188447, y: 0.80063754}
+      - {x: 0.305, y: 0.72999996}
+      - {x: 0.145, y: 0.31}
+      - {x: 0.024999999, y: 0.03}
+      - {x: -0.044999998, y: -0.17999999}
+      - {x: -0.415, y: -0.049999997}
+      - {x: -0.675, y: 0}
+      - {x: -0.85499996, y: 0.02}
+      - {x: -0.945, y: -0.049999997}
+      - {x: -0.965, y: -0.11}
+      - {x: -0.965, y: -0.17999999}
+      - {x: -0.945, y: -0.22999999}
+      - {x: -0.815, y: -0.35}
+      - {x: -0.715, y: -0.42999998}
+      - {x: -0.49499997, y: -0.57}
+      - {x: -0.225, y: -0.7}
+      - {x: -0.205, y: -0.89}
+      - {x: -0.645, y: -0.9}
+      - {x: -0.765, y: -0.93}
+      - {x: -0.78499997, y: -0.96}
+      - {x: -0.775, y: -0.98999995}
+      - {x: -0.715, y: -1.01}
+      - {x: 0.36499998, y: -1.01}
+      - {x: 0.435, y: -0.97999996}
+      - {x: 0.435, y: -0.94}
+      - {x: 0.375, y: -0.90999997}
+    - - {x: -0.92499995, y: 0.14}
+      - {x: -1.025, y: 0.12}
+      - {x: -1.025, y: -0.17999999}
+      - {x: -0.98499995, y: -0.17999999}
+      - {x: -0.965, y: -0.16}
+      - {x: -0.60499996, y: 0.07}
+      - {x: -0.60499996, y: 0.14}
+    - - {x: -0.765, y: 0.21}
+      - {x: -0.955, y: 0.21}
+      - {x: -1.035, y: 0.14999999}
+      - {x: -1.0292068, y: -0.42399842}
+      - {x: -1.035, y: 0.02}
+      - {x: -1.015, y: 0.02}
+      - {x: -0.98499995, y: 0.03}
+      - {x: -0.9438134, y: 0.10355683}
+      - {x: -0.755, y: 0.17}
+      - {x: 0.023404539, y: 0.27748096}
+--- !u!114 &410902805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410902802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreToGive: -10
+  enemy: 1
+  Fifth: 0
+  cameraShake: {fileID: 0}
+--- !u!212 &410902806
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410902802}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 89dbfacc5b1a6ec42bb32abf9e5bd279, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.07, y: 2.02}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &419346873
 GameObject:
   m_ObjectHideFlags: 0
@@ -4488,7 +4913,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 315891024}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &419346875
 AudioSource:
@@ -4595,26 +5020,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 422951374}
-  - component: {fileID: 422951373}
   m_Layer: 5
   m_Name: ScreenManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &422951373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422951372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79df9877324b89e428b74640fa58c88a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_IsActive: 0
 --- !u!224 &422951374
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4646,9 +5058,9 @@ GameObject:
   - component: {fileID: 427887818}
   - component: {fileID: 427887817}
   - component: {fileID: 427887816}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: vhs (2)
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4660,7 +5072,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427887815}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -4668,6 +5080,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!60 &427887817
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4678,7 +5091,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4920,7 +5333,7 @@ GameObject:
   - component: {fileID: 430728323}
   - component: {fileID: 430728322}
   - component: {fileID: 430728321}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (52)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -4942,6 +5355,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &430728322
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5035,7 +5449,7 @@ GameObject:
   - component: {fileID: 436335546}
   - component: {fileID: 436335545}
   - component: {fileID: 436335544}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5057,6 +5471,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &436335545
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5150,7 +5565,7 @@ GameObject:
   - component: {fileID: 440471939}
   - component: {fileID: 440471938}
   - component: {fileID: 440471937}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (26)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -5172,6 +5587,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &440471938
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5332,7 +5748,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445383497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.56, y: -2.56, z: 0}
+  m_LocalPosition: {x: 46.6, y: -2.42, z: 0}
   m_LocalScale: {x: 1.3263805, y: 1.3263805, z: 1.3263805}
   m_Children:
   - {fileID: 739791055}
@@ -5399,8 +5815,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  speedMultiplier: 1.5
-  speedIncreaseMilestone: 50
+  speedMultiplier: 1.25
+  speedIncreaseMilestone: 20
   jumpForce: 6
   jumpTime: 0.5
   grounded: 1
@@ -5412,6 +5828,7 @@ MonoBehaviour:
   theGameManager: {fileID: 622586265}
   jumpSound: {fileID: 1706759146}
   deathSound: {fileID: 419346875}
+  scoreToGive: 0
 --- !u!1 &454353481
 GameObject:
   m_ObjectHideFlags: 0
@@ -5424,7 +5841,7 @@ GameObject:
   - component: {fileID: 454353484}
   - component: {fileID: 454353483}
   - component: {fileID: 454353482}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (48)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -5446,6 +5863,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &454353483
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5539,7 +5957,7 @@ GameObject:
   - component: {fileID: 461707430}
   - component: {fileID: 461707429}
   - component: {fileID: 461707428}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (50)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -5561,6 +5979,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &461707429
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5717,12 +6136,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466571892}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 285.00702, y: 0.0858, z: 0}
-  m_LocalScale: {x: 1.4726732, y: 1.4821568, z: 1.4726732}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 61.312344, y: 1.3620223, z: 0}
+  m_LocalScale: {x: 0.9814139, y: 0.98773396, z: 0.9814139}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 490135744}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &471906645
 GameObject:
@@ -5882,7 +6301,7 @@ GameObject:
   - component: {fileID: 488312865}
   - component: {fileID: 488312864}
   - component: {fileID: 488312863}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5904,6 +6323,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &488312864
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6022,8 +6442,17 @@ Transform:
   - {fileID: 2120463594}
   - {fileID: 1367100621}
   - {fileID: 1582791019}
+  - {fileID: 1321165838}
+  - {fileID: 676974524}
+  - {fileID: 783990059}
+  - {fileID: 1162157387}
+  - {fileID: 1227947881}
+  - {fileID: 1371016034}
+  - {fileID: 466571894}
+  - {fileID: 1539341729}
+  - {fileID: 1706041290}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &490700224
 GameObject:
@@ -6119,9 +6548,9 @@ GameObject:
   - component: {fileID: 509571716}
   - component: {fileID: 509571718}
   - component: {fileID: 509571719}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: pofak (1)
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6201,7 +6630,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6247,7 +6676,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509571715}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -6255,6 +6684,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &511023986
 GameObject:
   m_ObjectHideFlags: 0
@@ -6267,9 +6697,9 @@ GameObject:
   - component: {fileID: 511023987}
   - component: {fileID: 511023989}
   - component: {fileID: 511023990}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: livan
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6349,7 +6779,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6383,7 +6813,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511023986}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -6391,6 +6821,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &519304749
 GameObject:
   m_ObjectHideFlags: 0
@@ -6403,7 +6834,7 @@ GameObject:
   - component: {fileID: 519304752}
   - component: {fileID: 519304751}
   - component: {fileID: 519304750}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (67)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -6425,6 +6856,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &519304751
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6518,6 +6950,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6597,13 +7030,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 50, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 982773692}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  - {fileID: 2112429513}
+  m_Father: {fileID: 831762018}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77f039193fdff94e849a4738d9e2e59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &531456365
 GameObject:
   m_ObjectHideFlags: 0
@@ -6616,7 +7062,7 @@ GameObject:
   - component: {fileID: 531456368}
   - component: {fileID: 531456367}
   - component: {fileID: 531456366}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (30)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -6638,6 +7084,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &531456367
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6731,15 +7178,15 @@ GameObject:
   - component: {fileID: 535075274}
   - component: {fileID: 535075273}
   - component: {fileID: 535075272}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: adams khersi (1)
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &535075272
-PolygonCollider2D:
+--- !u!61 &535075272
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6748,7 +7195,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6761,12 +7208,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -1.28, y: 0.815}
-      - {x: -1.28, y: -0.815}
-      - {x: 1.28, y: -0.815}
-      - {x: 1.28, y: 0.815}
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 1.63}
+  m_EdgeRadius: 0
 --- !u!114 &535075273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6774,14 +7218,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535075271}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreToGive: -10
-  enemy: 0
+  enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!212 &535075274
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6841,7 +7286,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535075271}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.71, y: -0.52455604, z: 4.2992277}
+  m_LocalPosition: {x: -19.25, y: -0.52455604, z: 4.2992277}
   m_LocalScale: {x: 0.5370463, y: 0.55329293, z: 0.5370463}
   m_Children: []
   m_Father: {fileID: 1164179948}
@@ -6859,7 +7304,7 @@ GameObject:
   - component: {fileID: 550726004}
   - component: {fileID: 550726003}
   - component: {fileID: 550726002}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (76)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -6881,6 +7326,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &550726003
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6974,7 +7420,7 @@ GameObject:
   - component: {fileID: 569714833}
   - component: {fileID: 569714832}
   - component: {fileID: 569714831}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6996,6 +7442,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &569714832
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7155,7 +7602,7 @@ GameObject:
   - component: {fileID: 603722297}
   - component: {fileID: 603722296}
   - component: {fileID: 603722295}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (81)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -7177,6 +7624,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &603722296
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7270,7 +7718,7 @@ GameObject:
   - component: {fileID: 606971520}
   - component: {fileID: 606971519}
   - component: {fileID: 606971518}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7292,6 +7740,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &606971519
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7821,7 +8270,7 @@ GameObject:
   - component: {fileID: 616052101}
   - component: {fileID: 616052100}
   - component: {fileID: 616052099}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7843,6 +8292,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &616052100
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7968,7 +8418,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thePlayer: {fileID: 445383502}
-  theDeathScreen: {fileID: 0}
+  theDeathScreen: {fileID: 857461697}
+  theWinMenu: {fileID: 631024051}
+--- !u!1 &631024049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 631024050}
+  - component: {fileID: 631024051}
+  m_Layer: 5
+  m_Name: WinScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &631024050
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631024049}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1851560191}
+  - {fileID: 1043416707}
+  - {fileID: 380431544}
+  m_Father: {fileID: 1961783734}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.5, y: -0.375}
+  m_SizeDelta: {x: -1044, y: -342}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &631024051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631024049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9c8ea85eed43f499188370121a88b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuLevel: Endless
 --- !u!1 &640150242
 GameObject:
   m_ObjectHideFlags: 0
@@ -7981,7 +8484,7 @@ GameObject:
   - component: {fileID: 640150245}
   - component: {fileID: 640150244}
   - component: {fileID: 640150243}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (69)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -8003,6 +8506,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &640150244
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8238,7 +8742,7 @@ GameObject:
   - component: {fileID: 673876415}
   - component: {fileID: 673876414}
   - component: {fileID: 673876413}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (31)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -8260,6 +8764,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &673876414
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8353,7 +8858,7 @@ GameObject:
   - component: {fileID: 676554379}
   - component: {fileID: 676554378}
   - component: {fileID: 676554377}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (73)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -8375,6 +8880,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &676554378
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8531,12 +9037,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676974522}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 197.08, y: 0.045, z: 0}
-  m_LocalScale: {x: 1.5144801, y: 1.5144801, z: 1.5144801}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.716317, y: 1.3348325, z: 0}
+  m_LocalScale: {x: 1.0092747, y: 1.0092747, z: 1.0092747}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 490135744}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &681454246
 GameObject:
@@ -8550,7 +9056,7 @@ GameObject:
   - component: {fileID: 681454249}
   - component: {fileID: 681454248}
   - component: {fileID: 681454247}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (42)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -8572,6 +9078,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &681454248
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8665,7 +9172,7 @@ GameObject:
   - component: {fileID: 713294505}
   - component: {fileID: 713294504}
   - component: {fileID: 713294503}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8687,6 +9194,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &713294504
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8780,7 +9288,7 @@ GameObject:
   - component: {fileID: 716928918}
   - component: {fileID: 716928917}
   - component: {fileID: 716928916}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8802,6 +9310,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &716928917
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8895,7 +9404,7 @@ GameObject:
   - component: {fileID: 717835837}
   - component: {fileID: 717835836}
   - component: {fileID: 717835835}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (20)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -8917,6 +9426,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &717835836
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9010,7 +9520,7 @@ GameObject:
   - component: {fileID: 726318263}
   - component: {fileID: 726318262}
   - component: {fileID: 726318261}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9032,6 +9542,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &726318262
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9155,7 +9666,7 @@ GameObject:
   - component: {fileID: 742765506}
   - component: {fileID: 742765505}
   - component: {fileID: 742765504}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9177,6 +9688,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &742765505
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9258,6 +9770,115 @@ Transform:
   m_Father: {fileID: 1438692465}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &768918210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 768918211}
+  - component: {fileID: 768918213}
+  - component: {fileID: 768918212}
+  m_Layer: 8
+  m_Name: Artboard 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &768918211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768918210}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.74, y: -0.01, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1539341729}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &768918212
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768918210}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.76, y: 0.63}
+    newSize: {x: 7.76, y: 0.63}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.76, y: 0.63}
+  m_EdgeRadius: 0
+--- !u!212 &768918213
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768918210}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 17448031283a61248bdfb727c95e1c3d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 7.76, y: 0.63}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &772676188
 GameObject:
   m_ObjectHideFlags: 0
@@ -9270,7 +9891,7 @@ GameObject:
   - component: {fileID: 772676191}
   - component: {fileID: 772676190}
   - component: {fileID: 772676189}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (3)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -9292,6 +9913,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &772676190
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9385,7 +10007,7 @@ GameObject:
   - component: {fileID: 778975702}
   - component: {fileID: 778975701}
   - component: {fileID: 778975700}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9407,6 +10029,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &778975701
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9500,7 +10123,7 @@ GameObject:
   - component: {fileID: 779563642}
   - component: {fileID: 779563641}
   - component: {fileID: 779563640}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (17)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -9522,6 +10145,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &779563641
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9678,12 +10302,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783990057}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 212.138, y: 0.049, z: 0}
-  m_LocalScale: {x: 1.5136611, y: 1.5136611, z: 1.5136611}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.751218, y: 1.3374982, z: 0}
+  m_LocalScale: {x: 1.008729, y: 1.008729, z: 1.008729}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 490135744}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &789287065
 GameObject:
@@ -9697,7 +10321,7 @@ GameObject:
   - component: {fileID: 789287068}
   - component: {fileID: 789287067}
   - component: {fileID: 789287066}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9719,6 +10343,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &789287067
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9812,7 +10437,7 @@ GameObject:
   - component: {fileID: 792891617}
   - component: {fileID: 792891616}
   - component: {fileID: 792891615}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9834,6 +10459,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &792891616
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9914,6 +10540,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1438692465}
   m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &831762017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 831762018}
+  m_Layer: 0
+  m_Name: CameraHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &831762018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831762017}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 50, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 519420032}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &835967121
 GameObject:
@@ -10290,7 +10947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 849156035}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -84.75753, y: -0.20792201, z: 0}
+  m_LocalPosition: {x: -85.34, y: -0.20792201, z: 0}
   m_LocalScale: {x: 1.4318918, y: 1.4318918, z: 1.4318918}
   m_Children: []
   m_Father: {fileID: 490135744}
@@ -10308,7 +10965,7 @@ GameObject:
   - component: {fileID: 850784496}
   - component: {fileID: 850784495}
   - component: {fileID: 850784494}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (47)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -10330,6 +10987,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &850784495
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10411,6 +11069,57 @@ Transform:
   m_Father: {fileID: 399261137}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &857461695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 857461696}
+  - component: {fileID: 857461697}
+  m_Layer: 5
+  m_Name: DeathMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &857461696
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857461695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2047339090}
+  - {fileID: 1454088489}
+  m_Father: {fileID: 1961783734}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -1044, y: -342}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &857461697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857461695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb35f00daa40294cb734379a17254e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuLevel: Endless
 --- !u!1 &864657841
 GameObject:
   m_ObjectHideFlags: 0
@@ -10423,7 +11132,7 @@ GameObject:
   - component: {fileID: 864657844}
   - component: {fileID: 864657843}
   - component: {fileID: 864657842}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (83)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -10445,6 +11154,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &864657843
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10676,7 +11386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873605668}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.585946, y: -0.07463866, z: 0}
+  m_LocalPosition: {x: 12.62, y: -0.07463866, z: 0}
   m_LocalScale: {x: 1.0217719, y: 1.0217719, z: 1.0217719}
   m_Children: []
   m_Father: {fileID: 1031600309}
@@ -10694,7 +11404,7 @@ GameObject:
   - component: {fileID: 889304453}
   - component: {fileID: 889304452}
   - component: {fileID: 889304451}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10716,6 +11426,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &889304452
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10809,7 +11520,7 @@ GameObject:
   - component: {fileID: 890518408}
   - component: {fileID: 890518407}
   - component: {fileID: 890518406}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10831,6 +11542,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &890518407
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11036,7 +11748,7 @@ GameObject:
   - component: {fileID: 909601104}
   - component: {fileID: 909601103}
   - component: {fileID: 909601102}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11058,6 +11770,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &909601103
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11151,7 +11864,7 @@ GameObject:
   - component: {fileID: 920065167}
   - component: {fileID: 920065166}
   - component: {fileID: 920065165}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11173,6 +11886,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &920065166
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11254,6 +11968,174 @@ Transform:
   m_Father: {fileID: 1438692465}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &925455800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 925455801}
+  - component: {fileID: 925455804}
+  - component: {fileID: 925455803}
+  - component: {fileID: 925455802}
+  m_Layer: 11
+  m_Name: ball (1)
+  m_TagString: doshman
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &925455801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925455800}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 134.824, y: -0.736, z: 4.2992277}
+  m_LocalScale: {x: 0.49269733, y: 0.49269733, z: 0.49269733}
+  m_Children: []
+  m_Father: {fileID: 1164179948}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &925455802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925455800}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreToGive: -10
+  enemy: 1
+  Fifth: 0
+  cameraShake: {fileID: 0}
+--- !u!60 &925455803
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925455800}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.6, y: 2.6}
+    newSize: {x: 2.6, y: 2.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.78, y: -1.0699999}
+      - {x: 0.96, y: -0.90999997}
+      - {x: 1.02, y: -0.84}
+      - {x: 1.12, y: -0.7}
+      - {x: 1.1999999, y: -0.53999996}
+      - {x: 1.27, y: -0.38}
+      - {x: 1.3, y: -0.22999999}
+      - {x: 1.3, y: 0.19}
+      - {x: 1.27, y: 0.38}
+      - {x: 1.23, y: 0.48999998}
+      - {x: 1.11, y: 0.71999997}
+      - {x: 0.97999996, y: 0.89}
+      - {x: 0.82, y: 1.04}
+      - {x: 0.65999997, y: 1.14}
+      - {x: 0.51, y: 1.2099999}
+      - {x: 0.37, y: 1.27}
+      - {x: 0.26, y: 1.3}
+      - {x: -0.21, y: 1.3}
+      - {x: -0.39, y: 1.26}
+      - {x: -0.48, y: 1.23}
+      - {x: -0.7, y: 1.13}
+      - {x: -0.78999996, y: 1.06}
+      - {x: -0.9, y: 0.96999997}
+      - {x: -1.04, y: 0.82}
+      - {x: -1.13, y: 0.69}
+      - {x: -1.22, y: 0.53999996}
+      - {x: -1.29, y: 0.34}
+      - {x: -1.3, y: 0.26}
+      - {x: -1.3, y: -0.26}
+      - {x: -1.28, y: -0.34}
+      - {x: -1.23, y: -0.48999998}
+      - {x: -1.17, y: -0.63}
+      - {x: -1.0699999, y: -0.78999996}
+      - {x: -0.96, y: -0.91999996}
+      - {x: -0.84, y: -1.03}
+      - {x: -0.65, y: -1.17}
+      - {x: -0.39, y: -1.28}
+      - {x: -0.29999998, y: -1.29}
+      - {x: -0.26, y: -1.3}
+      - {x: 0.25, y: -1.3}
+      - {x: 0.29999998, y: -1.29}
+      - {x: 0.44, y: -1.26}
+      - {x: 0.64, y: -1.16}
+--- !u!212 &925455804
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925455800}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: ceab2c376d2c0f642af9f8e0480943e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.6, y: 2.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &930214713
 GameObject:
   m_ObjectHideFlags: 0
@@ -11266,7 +12148,7 @@ GameObject:
   - component: {fileID: 930214716}
   - component: {fileID: 930214715}
   - component: {fileID: 930214714}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (34)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -11288,6 +12170,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &930214715
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11802,7 +12685,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 952147407}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -52.016487, y: 0.3185471, z: 0}
+  m_LocalPosition: {x: -52.6, y: 0.3185471, z: 0}
   m_LocalScale: {x: 0.8329533, y: 0.8329533, z: 0.8329533}
   m_Children: []
   m_Father: {fileID: 1031600309}
@@ -11914,7 +12797,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962294960}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -74.368095, y: 0.018659664, z: 0}
+  m_LocalPosition: {x: -73.29, y: 0.018659664, z: 0}
   m_LocalScale: {x: 1.0101745, y: 1.0101745, z: 1.0101745}
   m_Children: []
   m_Father: {fileID: 490135744}
@@ -11932,7 +12815,7 @@ GameObject:
   - component: {fileID: 971025435}
   - component: {fileID: 971025434}
   - component: {fileID: 971025433}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11954,6 +12837,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &971025434
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12104,7 +12988,7 @@ GameObject:
   - component: {fileID: 988426879}
   - component: {fileID: 988426878}
   - component: {fileID: 988426877}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (44)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -12126,6 +13010,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &988426878
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12207,6 +13092,148 @@ Transform:
   m_Father: {fileID: 399261137}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1000880756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1000880757}
+  - component: {fileID: 1000880760}
+  - component: {fileID: 1000880759}
+  - component: {fileID: 1000880758}
+  m_Layer: 11
+  m_Name: pak kon (1)
+  m_TagString: doshman
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1000880757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000880756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 158.934, y: 1.39, z: 4.2992277}
+  m_LocalScale: {x: 0.49144098, y: 0.6572612, z: 0.49976248}
+  m_Children: []
+  m_Father: {fileID: 1164179948}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1000880758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000880756}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreToGive: -10
+  enemy: 1
+  Fifth: 0
+  cameraShake: {fileID: 0}
+--- !u!60 &1000880759
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000880756}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.88, y: 0.82}
+    newSize: {x: 3.88, y: 0.82}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.8299999, y: 0.14}
+      - {x: 1.9399999, y: 0.22999999}
+      - {x: 1.9399999, y: 0.37}
+      - {x: 1.92, y: 0.39999998}
+      - {x: 1.89, y: 0.41}
+      - {x: -1.1, y: 0.41}
+      - {x: -1.23, y: 0.32999998}
+      - {x: -1.51, y: 0.099999994}
+      - {x: -1.76, y: -0.089999996}
+      - {x: -1.89, y: -0.19}
+      - {x: -1.9399999, y: -0.24}
+      - {x: -1.9399999, y: -0.37}
+      - {x: -1.91, y: -0.41}
+      - {x: 1.0699999, y: -0.41}
+      - {x: 1.16, y: -0.37}
+      - {x: 1.28, y: -0.28}
+      - {x: 1.52, y: -0.089999996}
+--- !u!212 &1000880760
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000880756}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 060b850c6b2daf841ae5740760e7ddca, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.88, y: 0.82}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1002175969
 GameObject:
   m_ObjectHideFlags: 0
@@ -12219,7 +13246,7 @@ GameObject:
   - component: {fileID: 1002175972}
   - component: {fileID: 1002175971}
   - component: {fileID: 1002175970}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (33)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -12241,6 +13268,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1002175971
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12334,7 +13362,7 @@ GameObject:
   - component: {fileID: 1004857755}
   - component: {fileID: 1004857754}
   - component: {fileID: 1004857753}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12356,6 +13384,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1004857754
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12449,7 +13478,7 @@ GameObject:
   - component: {fileID: 1010087891}
   - component: {fileID: 1010087890}
   - component: {fileID: 1010087889}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (18)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -12471,6 +13500,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1010087890
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12607,7 +13637,7 @@ Transform:
   - {fileID: 1219635175}
   - {fileID: 209849773}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1036188104
 GameObject:
@@ -12621,7 +13651,7 @@ GameObject:
   - component: {fileID: 1036188107}
   - component: {fileID: 1036188106}
   - component: {fileID: 1036188105}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12643,6 +13673,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1036188106
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12724,6 +13755,137 @@ Transform:
   m_Father: {fileID: 1438692465}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1043416706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1043416707}
+  - component: {fileID: 1043416710}
+  - component: {fileID: 1043416709}
+  - component: {fileID: 1043416708}
+  m_Layer: 5
+  m_Name: Restart Button (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1043416707
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043416706}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 631024050}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.2000122, y: 0.5}
+  m_SizeDelta: {x: 927.8887, y: 257.75443}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1043416708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043416706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1043416709}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 857461697}
+        m_TargetAssemblyTypeName: DeathMenu, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1043416709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043416706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1043416710
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043416706}
+  m_CullTransparentMesh: 0
 --- !u!1 &1087536165
 GameObject:
   m_ObjectHideFlags: 0
@@ -12736,9 +13898,9 @@ GameObject:
   - component: {fileID: 1087536168}
   - component: {fileID: 1087536167}
   - component: {fileID: 1087536166}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: caset
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12750,7 +13912,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087536165}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -12758,6 +13920,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!61 &1087536167
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12861,7 +14024,7 @@ GameObject:
   - component: {fileID: 1093463507}
   - component: {fileID: 1093463506}
   - component: {fileID: 1093463505}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (36)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -12883,6 +14046,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1093463506
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13151,12 +14315,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162157385}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 228.79001, y: 0.07, z: 0}
-  m_LocalScale: {x: 1.5013069, y: 1.5013069, z: 1.5013069}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 23.848392, y: 1.3514929, z: 0}
+  m_LocalScale: {x: 1.0004959, y: 1.0004959, z: 1.0004959}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 490135744}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1164179947
 GameObject:
@@ -13167,9 +14331,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1164179948}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: doshman ha
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13198,9 +14362,141 @@ Transform:
   - {fileID: 427887819}
   - {fileID: 1589550980}
   - {fileID: 1087536169}
+  - {fileID: 925455801}
+  - {fileID: 1165386063}
+  - {fileID: 105703812}
+  - {fileID: 1000880757}
+  - {fileID: 1408629845}
+  - {fileID: 410902803}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1165386062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1165386063}
+  - component: {fileID: 1165386066}
+  - component: {fileID: 1165386065}
+  - component: {fileID: 1165386064}
+  m_Layer: 11
+  m_Name: adams khersi (2)
+  m_TagString: doshman
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1165386063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165386062}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 148.4, y: 0, z: 4.2992277}
+  m_LocalScale: {x: 0.5370463, y: 0.55329293, z: 0.5370463}
+  m_Children: []
+  m_Father: {fileID: 1164179948}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1165386064
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165386062}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 1.63}
+    newSize: {x: 2.56, y: 1.63}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 1.63}
+  m_EdgeRadius: 0
+--- !u!114 &1165386065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165386062}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreToGive: -10
+  enemy: 1
+  Fifth: 0
+  cameraShake: {fileID: 0}
+--- !u!212 &1165386066
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165386062}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: 4d1e81e4b70b1484f84ff8e4c36af790, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.56, y: 1.63}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1174179419
 GameObject:
   m_ObjectHideFlags: 0
@@ -13213,7 +14509,7 @@ GameObject:
   - component: {fileID: 1174179422}
   - component: {fileID: 1174179421}
   - component: {fileID: 1174179420}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (24)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -13235,6 +14531,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1174179421
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13328,7 +14625,7 @@ GameObject:
   - component: {fileID: 1179542433}
   - component: {fileID: 1179542432}
   - component: {fileID: 1179542431}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13350,6 +14647,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1179542432
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13443,7 +14741,7 @@ GameObject:
   - component: {fileID: 1180541529}
   - component: {fileID: 1180541528}
   - component: {fileID: 1180541527}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (60)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -13465,6 +14763,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1180541528
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13558,7 +14857,7 @@ GameObject:
   - component: {fileID: 1191983863}
   - component: {fileID: 1191983862}
   - component: {fileID: 1191983861}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (71)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -13580,6 +14879,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1191983862
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13673,7 +14973,7 @@ GameObject:
   - component: {fileID: 1193909748}
   - component: {fileID: 1193909747}
   - component: {fileID: 1193909746}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13695,6 +14995,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1193909747
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13788,7 +15089,7 @@ GameObject:
   - component: {fileID: 1201843909}
   - component: {fileID: 1201843908}
   - component: {fileID: 1201843907}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13810,6 +15111,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1201843908
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14342,7 +15644,7 @@ GameObject:
   - component: {fileID: 1219984758}
   - component: {fileID: 1219984757}
   - component: {fileID: 1219984756}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (74)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -14364,6 +15666,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1219984757
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14520,12 +15823,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227947879}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 247.81201, y: 0.0829, z: 0}
-  m_LocalScale: {x: 1.4886787, y: 1.4945738, z: 1.4886787}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 36.52497, y: 1.3600898, z: 0}
+  m_LocalScale: {x: 0.9920803, y: 0.9960089, z: 0.9920803}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 490135744}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1245176679
 GameObject:
@@ -14539,7 +15842,7 @@ GameObject:
   - component: {fileID: 1245176682}
   - component: {fileID: 1245176681}
   - component: {fileID: 1245176680}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14561,6 +15864,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1245176681
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14654,7 +15958,7 @@ GameObject:
   - component: {fileID: 1246403128}
   - component: {fileID: 1246403127}
   - component: {fileID: 1246403126}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14676,6 +15980,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1246403127
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15002,7 +16307,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1282205952}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -30.570532, y: -0.6410929, z: 0}
+  m_LocalPosition: {x: -30.570532, y: 0.55, z: 0}
   m_LocalScale: {x: 0.76745677, y: 0.46659458, z: 0.66641665}
   m_Children: []
   m_Father: {fileID: 1031600309}
@@ -15020,7 +16325,7 @@ GameObject:
   - component: {fileID: 1297974923}
   - component: {fileID: 1297974922}
   - component: {fileID: 1297974921}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15042,6 +16347,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1297974922
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15135,7 +16441,7 @@ GameObject:
   - component: {fileID: 1301740726}
   - component: {fileID: 1301740725}
   - component: {fileID: 1301740724}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15157,6 +16463,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1301740725
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15250,7 +16557,7 @@ GameObject:
   - component: {fileID: 1311216587}
   - component: {fileID: 1311216586}
   - component: {fileID: 1311216585}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15272,6 +16579,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1311216586
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15540,12 +16848,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321165836}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 179.224, y: 0.005, z: 0}
-  m_LocalScale: {x: 1.6095269, y: 1.5248122, z: 1.4906784}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.183221, y: 1.3081758, z: 0}
+  m_LocalScale: {x: 1.0726155, y: 1.0161602, z: 0.9934129}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 490135744}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1322078369
 GameObject:
@@ -15559,7 +16867,7 @@ GameObject:
   - component: {fileID: 1322078372}
   - component: {fileID: 1322078371}
   - component: {fileID: 1322078370}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15581,6 +16889,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1322078371
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15674,7 +16983,7 @@ GameObject:
   - component: {fileID: 1322291220}
   - component: {fileID: 1322291223}
   - component: {fileID: 1322291222}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15761,6 +17070,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1322291223
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15789,7 +17099,7 @@ GameObject:
   - component: {fileID: 1327826509}
   - component: {fileID: 1327826508}
   - component: {fileID: 1327826507}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (80)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -15811,6 +17121,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1327826508
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15921,7 +17232,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 315891024}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1328703444
 AudioSource:
@@ -16031,7 +17342,7 @@ GameObject:
   - component: {fileID: 1338673122}
   - component: {fileID: 1338673121}
   - component: {fileID: 1338673120}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (58)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -16053,6 +17364,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1338673121
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16567,7 +17879,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348341431}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -55.763077, y: 0.2745636, z: 0}
+  m_LocalPosition: {x: -56.28, y: 0.2745636, z: 0}
   m_LocalScale: {x: 0.8610923, y: 0.8610923, z: 0.8610923}
   m_Children: []
   m_Father: {fileID: 1031600309}
@@ -16667,7 +17979,7 @@ GameObject:
   - component: {fileID: 1367353233}
   - component: {fileID: 1367353232}
   - component: {fileID: 1367353231}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16689,6 +18001,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1367353232
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16845,12 +18158,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371016032}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 265.865, y: 0.0662, z: 0}
-  m_LocalScale: {x: 1.4808375, y: 1.4895365, z: 1.4808375}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 48.55578, y: 1.3489605, z: 0}
+  m_LocalScale: {x: 0.98685473, y: 0.99265194, z: 0.98685473}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 490135744}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1380545291
 GameObject:
@@ -16864,7 +18177,7 @@ GameObject:
   - component: {fileID: 1380545294}
   - component: {fileID: 1380545293}
   - component: {fileID: 1380545292}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (68)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -16886,6 +18199,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1380545293
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16979,7 +18293,7 @@ GameObject:
   - component: {fileID: 1394653387}
   - component: {fileID: 1394653386}
   - component: {fileID: 1394653385}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (63)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -17001,6 +18315,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1394653386
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17194,6 +18509,132 @@ Transform:
   m_Father: {fileID: 1031600309}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1408629844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1408629845}
+  - component: {fileID: 1408629848}
+  - component: {fileID: 1408629847}
+  - component: {fileID: 1408629846}
+  m_Layer: 11
+  m_Name: caset (1)
+  m_TagString: doshman
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1408629845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408629844}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 92.63, y: 1.35, z: 4.2992277}
+  m_LocalScale: {x: 0.2859411, y: 0.2859411, z: 0.2859411}
+  m_Children: []
+  m_Father: {fileID: 1164179948}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1408629846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408629844}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreToGive: -10
+  enemy: 1
+  Fifth: 0
+  cameraShake: {fileID: 0}
+--- !u!61 &1408629847
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408629844}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.69, y: 3.08}
+    newSize: {x: 4.69, y: 3.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.69, y: 3.08}
+  m_EdgeRadius: 0
+--- !u!212 &1408629848
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408629844}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a2d9683d36e56204aa240c5b448cd1b4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 4.69, y: 3.08}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1410718340
 GameObject:
   m_ObjectHideFlags: 0
@@ -17206,7 +18647,7 @@ GameObject:
   - component: {fileID: 1410718343}
   - component: {fileID: 1410718342}
   - component: {fileID: 1410718341}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17228,6 +18669,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1410718342
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17318,7 +18760,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1438692465}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Tomatoes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17395,7 +18837,7 @@ Transform:
   - {fileID: 606971521}
   - {fileID: 1322291221}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1449523333
 GameObject:
@@ -17426,7 +18868,7 @@ Transform:
   m_LocalScale: {x: 0.75393146, y: 0.75393146, z: 0.75393146}
   m_Children: []
   m_Father: {fileID: 315891024}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1449523335
 AudioSource:
@@ -17536,7 +18978,7 @@ GameObject:
   - component: {fileID: 1450647531}
   - component: {fileID: 1450647530}
   - component: {fileID: 1450647529}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (78)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -17558,6 +19000,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1450647530
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17639,6 +19082,137 @@ Transform:
   m_Father: {fileID: 399261137}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1454088488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1454088489}
+  - component: {fileID: 1454088492}
+  - component: {fileID: 1454088491}
+  - component: {fileID: 1454088490}
+  m_Layer: 5
+  m_Name: Restart Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1454088489
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454088488}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 857461696}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -19.6, y: -118.04}
+  m_SizeDelta: {x: 136.10443, y: -45.05275}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1454088490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454088488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1454088491}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 857461697}
+        m_TargetAssemblyTypeName: DeathMenu, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1454088491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454088488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1454088492
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454088488}
+  m_CullTransparentMesh: 0
 --- !u!1 &1494532382
 GameObject:
   m_ObjectHideFlags: 0
@@ -17907,7 +19481,7 @@ Transform:
   m_LocalScale: {x: 0.75393146, y: 0.75393146, z: 0.75393146}
   m_Children: []
   m_Father: {fileID: 315891024}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1506897663
 AudioSource:
@@ -18159,7 +19733,7 @@ GameObject:
   - component: {fileID: 1517822054}
   - component: {fileID: 1517822053}
   - component: {fileID: 1517822052}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (43)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -18181,6 +19755,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1517822053
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18274,7 +19849,7 @@ GameObject:
   - component: {fileID: 1530790104}
   - component: {fileID: 1530790103}
   - component: {fileID: 1530790102}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18296,6 +19871,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1530790103
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18389,7 +19965,7 @@ GameObject:
   - component: {fileID: 1531931159}
   - component: {fileID: 1531931158}
   - component: {fileID: 1531931157}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18411,6 +19987,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1531931158
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18504,7 +20081,7 @@ GameObject:
   - component: {fileID: 1537612224}
   - component: {fileID: 1537612223}
   - component: {fileID: 1537612222}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (46)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -18526,6 +20103,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1537612223
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18607,6 +20185,116 @@ Transform:
   m_Father: {fileID: 399261137}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1539341728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1539341729}
+  - component: {fileID: 1539341731}
+  - component: {fileID: 1539341730}
+  m_Layer: 8
+  m_Name: Artboard 5 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1539341729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539341728}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -98.19, y: -0.58777946, z: 0}
+  m_LocalScale: {x: 0.66641665, y: 0.66641665, z: 0.66641665}
+  m_Children:
+  - {fileID: 768918211}
+  m_Father: {fileID: 490135744}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1539341730
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539341728}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.76, y: 0.63}
+    newSize: {x: 7.76, y: 0.63}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.76, y: 0.63}
+  m_EdgeRadius: 0
+--- !u!212 &1539341731
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539341728}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 17448031283a61248bdfb727c95e1c3d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 7.76, y: 0.63}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1542507530
 GameObject:
   m_ObjectHideFlags: 0
@@ -18728,7 +20416,7 @@ GameObject:
   - component: {fileID: 1546140701}
   - component: {fileID: 1546140700}
   - component: {fileID: 1546140699}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (65)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -18750,6 +20438,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1546140700
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18843,9 +20532,9 @@ GameObject:
   - component: {fileID: 1550739526}
   - component: {fileID: 1550739529}
   - component: {fileID: 1550739528}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: vhs
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18922,7 +20611,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550739525}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -18930,6 +20619,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!60 &1550739529
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -18940,7 +20630,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -18972,7 +20662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1557441435}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 50s
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18994,7 +20684,7 @@ Transform:
   - {fileID: 3435269}
   - {fileID: 1601769920}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1564345513
 GameObject:
@@ -19008,9 +20698,9 @@ GameObject:
   - component: {fileID: 1564345514}
   - component: {fileID: 1564345516}
   - component: {fileID: 1564345517}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: pofak
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19074,7 +20764,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564345513}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.80198, y: 0.29544398, z: 4.2992277}
+  m_LocalPosition: {x: 34, y: 0.29544398, z: 4.2992277}
   m_LocalScale: {x: 0.51228845, y: 0.51228845, z: 0.51228845}
   m_Children: []
   m_Father: {fileID: 1164179948}
@@ -19090,7 +20780,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -19136,7 +20826,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1564345513}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -19144,6 +20834,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &1568913812
 GameObject:
   m_ObjectHideFlags: 0
@@ -19156,7 +20847,7 @@ GameObject:
   - component: {fileID: 1568913815}
   - component: {fileID: 1568913814}
   - component: {fileID: 1568913813}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (40)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -19178,6 +20869,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1568913814
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19271,7 +20963,7 @@ GameObject:
   - component: {fileID: 1572675606}
   - component: {fileID: 1572675605}
   - component: {fileID: 1572675604}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (64)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -19293,6 +20985,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1572675605
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19466,11 +21159,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1589550980}
   - component: {fileID: 1589550979}
-  - component: {fileID: 1589550978}
   - component: {fileID: 1589550977}
-  m_Layer: 0
+  - component: {fileID: 1589550978}
+  m_Layer: 11
   m_Name: ferfere (1)
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19490,6 +21183,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!60 &1589550978
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -19500,7 +21194,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -19534,9 +21228,9 @@ PolygonCollider2D:
       - {x: 0.585, y: 0.56}
       - {x: 0.655, y: 0.75}
       - {x: 0.66499996, y: 0.78999996}
-      - {x: 0.515, y: 0.89}
-      - {x: 0.385, y: 0.89}
-      - {x: 0.355, y: 0.87}
+      - {x: 0.52655774, y: 0.89}
+      - {x: 0.4254521, y: 0.84953856}
+      - {x: 0.33188447, y: 0.80063754}
       - {x: 0.305, y: 0.72999996}
       - {x: 0.145, y: 0.31}
       - {x: 0.024999999, y: 0.03}
@@ -19572,11 +21266,13 @@ PolygonCollider2D:
     - - {x: -0.765, y: 0.21}
       - {x: -0.955, y: 0.21}
       - {x: -1.035, y: 0.14999999}
+      - {x: -1.0292068, y: -0.42399842}
       - {x: -1.035, y: 0.02}
       - {x: -1.015, y: 0.02}
       - {x: -0.98499995, y: 0.03}
+      - {x: -0.9438134, y: 0.10355683}
       - {x: -0.755, y: 0.17}
-      - {x: -0.755, y: 0.19}
+      - {x: 0.023404539, y: 0.27748096}
 --- !u!212 &1589550979
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19636,7 +21332,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589550976}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.2480164, y: -0.22455603, z: 4.2992277}
+  m_LocalPosition: {x: -12.83, y: -0.205, z: 4.2992277}
   m_LocalScale: {x: 0.73932356, y: 0.73932356, z: 0.73932356}
   m_Children: []
   m_Father: {fileID: 1164179948}
@@ -19654,7 +21350,7 @@ GameObject:
   - component: {fileID: 1601708037}
   - component: {fileID: 1601708036}
   - component: {fileID: 1601708035}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (28)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -19676,6 +21372,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1601708036
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19769,7 +21466,7 @@ GameObject:
   - component: {fileID: 1601769919}
   - component: {fileID: 1601769918}
   - component: {fileID: 1601769917}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 50 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19791,6 +21488,7 @@ MonoBehaviour:
   scoreToGive: 50
   enemy: 0
   Fifth: 1
+  cameraShake: {fileID: 0}
 --- !u!58 &1601769918
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19884,7 +21582,7 @@ GameObject:
   - component: {fileID: 1613607889}
   - component: {fileID: 1613607888}
   - component: {fileID: 1613607887}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19906,6 +21604,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1613607888
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19999,7 +21698,7 @@ GameObject:
   - component: {fileID: 1632672586}
   - component: {fileID: 1632672585}
   - component: {fileID: 1632672584}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20021,6 +21720,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1632672585
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20114,7 +21814,7 @@ GameObject:
   - component: {fileID: 1647206366}
   - component: {fileID: 1647206365}
   - component: {fileID: 1647206364}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (35)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -20136,6 +21836,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1647206365
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20665,7 +22366,7 @@ GameObject:
   - component: {fileID: 1649396900}
   - component: {fileID: 1649396899}
   - component: {fileID: 1649396898}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20687,6 +22388,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1649396899
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20889,7 +22591,7 @@ GameObject:
   - component: {fileID: 1667298775}
   - component: {fileID: 1667298774}
   - component: {fileID: 1667298773}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (79)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -20911,6 +22613,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1667298774
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20992,6 +22695,245 @@ Transform:
   m_Father: {fileID: 399261137}
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1676577530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1676577531}
+  - component: {fileID: 1676577532}
+  m_Layer: 0
+  m_Name: Tashvigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1676577531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676577530}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.4228487, y: 0.934875, z: 0}
+  m_LocalScale: {x: 0.75393146, y: 0.75393146, z: 0.75393146}
+  m_Children: []
+  m_Father: {fileID: 315891024}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1676577532
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676577530}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: eed07b490474beb4082476486a920387, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &1706041289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1706041290}
+  - component: {fileID: 1706041292}
+  - component: {fileID: 1706041291}
+  m_Layer: 8
+  m_Name: Artboard 6 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1706041290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706041289}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -79.6, y: -0.53, z: 0}
+  m_LocalScale: {x: 0.84407806, y: 0.84407806, z: 0.84407806}
+  m_Children: []
+  m_Father: {fileID: 490135744}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1706041291
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706041289}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.19, y: 1.13}
+    newSize: {x: 2.19, y: 1.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.095, y: 0.565}
+      - {x: -1.095, y: -0.565}
+      - {x: 1.095, y: -0.565}
+      - {x: 1.095, y: 0.565}
+--- !u!212 &1706041292
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706041289}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 92ae7f234201a6f43affdbbe7d9b2fa8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.19, y: 1.13}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1706759144
 GameObject:
   m_ObjectHideFlags: 0
@@ -21021,7 +22963,7 @@ Transform:
   m_LocalScale: {x: 0.75393146, y: 0.75393146, z: 0.75393146}
   m_Children: []
   m_Father: {fileID: 315891024}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1706759146
 AudioSource:
@@ -21131,9 +23073,9 @@ GameObject:
   - component: {fileID: 1712561596}
   - component: {fileID: 1712561598}
   - component: {fileID: 1712561599}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: vhs (1)
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21197,7 +23139,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712561595}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 177.482, y: 0.055443984, z: 4.2992277}
+  m_LocalPosition: {x: 175.52, y: 0.055443984, z: 4.2992277}
   m_LocalScale: {x: 0.66709036, y: 0.66709036, z: 0.66709036}
   m_Children: []
   m_Father: {fileID: 1164179948}
@@ -21213,7 +23155,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -21243,7 +23185,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712561595}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -21251,6 +23193,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &1715556494
 GameObject:
   m_ObjectHideFlags: 0
@@ -21263,7 +23206,7 @@ GameObject:
   - component: {fileID: 1715556497}
   - component: {fileID: 1715556496}
   - component: {fileID: 1715556495}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21285,6 +23228,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1715556496
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21383,7 +23327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1721847345
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21457,9 +23401,9 @@ GameObject:
   - component: {fileID: 1759661651}
   - component: {fileID: 1759661653}
   - component: {fileID: 1759661654}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: hotdog
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21523,8 +23467,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759661650}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 195.10199, y: 0.055443984, z: 4.2992277}
-  m_LocalScale: {x: 0.25988713, y: 0.25988713, z: 0.25988713}
+  m_LocalPosition: {x: 195.021, y: -0.025, z: 4.2992277}
+  m_LocalScale: {x: 0.23758917, y: 0.21773672, z: 0.25988713}
   m_Children: []
   m_Father: {fileID: 1164179948}
   m_RootOrder: 7
@@ -21539,7 +23483,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -21660,7 +23604,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759661650}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -21668,6 +23612,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &1769198303
 GameObject:
   m_ObjectHideFlags: 0
@@ -21680,7 +23625,7 @@ GameObject:
   - component: {fileID: 1769198306}
   - component: {fileID: 1769198305}
   - component: {fileID: 1769198304}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (25)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -21702,6 +23647,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1769198305
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21795,7 +23741,7 @@ GameObject:
   - component: {fileID: 1805182190}
   - component: {fileID: 1805182189}
   - component: {fileID: 1805182188}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (14)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -21817,6 +23763,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1805182189
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21910,7 +23857,7 @@ GameObject:
   - component: {fileID: 1807058232}
   - component: {fileID: 1807058231}
   - component: {fileID: 1807058230}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21932,6 +23879,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1807058231
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22025,7 +23973,7 @@ GameObject:
   - component: {fileID: 1809109800}
   - component: {fileID: 1809109799}
   - component: {fileID: 1809109798}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22047,6 +23995,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1809109799
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22128,114 +24077,6 @@ Transform:
   m_Father: {fileID: 1438692465}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1810828775
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1810828779}
-  - component: {fileID: 1810828778}
-  - component: {fileID: 1810828777}
-  - component: {fileID: 1810828776}
-  m_Layer: 8
-  m_Name: Ground (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &1810828776
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810828775}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!23 &1810828777
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810828775}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1810828778
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810828775}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1810828779
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810828775}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 105.32, y: -16.05, z: 0}
-  m_LocalScale: {x: 23.02866, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1811732285
 GameObject:
   m_ObjectHideFlags: 0
@@ -22248,7 +24089,7 @@ GameObject:
   - component: {fileID: 1811732288}
   - component: {fileID: 1811732287}
   - component: {fileID: 1811732286}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22270,6 +24111,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1811732287
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22363,7 +24205,7 @@ GameObject:
   - component: {fileID: 1822178857}
   - component: {fileID: 1822178856}
   - component: {fileID: 1822178855}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22385,6 +24227,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1822178856
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22478,7 +24321,7 @@ GameObject:
   - component: {fileID: 1834467612}
   - component: {fileID: 1834467611}
   - component: {fileID: 1834467610}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22500,6 +24343,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1834467611
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22593,7 +24437,7 @@ GameObject:
   - component: {fileID: 1835714894}
   - component: {fileID: 1835714893}
   - component: {fileID: 1835714892}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (61)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -22615,6 +24459,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1835714893
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22708,7 +24553,7 @@ GameObject:
   - component: {fileID: 1838979444}
   - component: {fileID: 1838979443}
   - component: {fileID: 1838979442}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (54)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -22730,6 +24575,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1838979443
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22823,7 +24669,7 @@ GameObject:
   - component: {fileID: 1849192637}
   - component: {fileID: 1849192639}
   - component: {fileID: 1849192640}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (2)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -22926,6 +24772,82 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
+--- !u!1 &1851560190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1851560191}
+  - component: {fileID: 1851560193}
+  - component: {fileID: 1851560192}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1851560191
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851560190}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 631024050}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 63.8, y: -19.2}
+  m_SizeDelta: {x: 1188.3619, y: 395.59973}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1851560192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851560190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: d463105c62a9f21478b1e182182ad573, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1851560193
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851560190}
+  m_CullTransparentMesh: 0
 --- !u!1 &1875765346
 GameObject:
   m_ObjectHideFlags: 0
@@ -22938,7 +24860,7 @@ GameObject:
   - component: {fileID: 1875765349}
   - component: {fileID: 1875765348}
   - component: {fileID: 1875765347}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (29)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -22960,6 +24882,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1875765348
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23053,7 +24976,7 @@ GameObject:
   - component: {fileID: 1889115948}
   - component: {fileID: 1889115951}
   - component: {fileID: 1889115950}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: 50 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23140,6 +25063,7 @@ MonoBehaviour:
   scoreToGive: 50
   enemy: 0
   Fifth: 1
+  cameraShake: {fileID: 0}
 --- !u!58 &1889115951
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23168,9 +25092,9 @@ GameObject:
   - component: {fileID: 1893060745}
   - component: {fileID: 1893060748}
   - component: {fileID: 1893060747}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: adams khersi
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23250,7 +25174,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -23276,14 +25200,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893060744}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreToGive: -10
-  enemy: 0
+  enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &1897295230
 GameObject:
   m_ObjectHideFlags: 0
@@ -23296,7 +25221,7 @@ GameObject:
   - component: {fileID: 1897295233}
   - component: {fileID: 1897295232}
   - component: {fileID: 1897295231}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (15)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -23318,6 +25243,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1897295232
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23411,7 +25337,7 @@ GameObject:
   - component: {fileID: 1910877605}
   - component: {fileID: 1910877604}
   - component: {fileID: 1910877603}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (59)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -23433,6 +25359,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1910877604
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23526,7 +25453,7 @@ GameObject:
   - component: {fileID: 1916403694}
   - component: {fileID: 1916403693}
   - component: {fileID: 1916403692}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23548,6 +25475,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1916403693
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23679,8 +25607,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 54074632}
   hiScoreText: {fileID: 1721847346}
+  endHiScoreText: {fileID: 380431545}
   scoreCount: 0
   hiScoreCount: 0
+  endHiScoreCount: 0
 --- !u!1 &1954865287
 GameObject:
   m_ObjectHideFlags: 0
@@ -23850,7 +25780,7 @@ GameObject:
   - component: {fileID: 1956726847}
   - component: {fileID: 1956726846}
   - component: {fileID: 1956726845}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (37)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -23872,6 +25802,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1956726846
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24046,6 +25977,8 @@ RectTransform:
   - {fileID: 54074631}
   - {fileID: 1721847345}
   - {fileID: 1952325477}
+  - {fileID: 857461696}
+  - {fileID: 631024050}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24066,7 +25999,7 @@ GameObject:
   - component: {fileID: 1976353984}
   - component: {fileID: 1976353983}
   - component: {fileID: 1976353982}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (21)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -24088,6 +26021,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1976353983
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24181,7 +26115,7 @@ GameObject:
   - component: {fileID: 1978080130}
   - component: {fileID: 1978080129}
   - component: {fileID: 1978080128}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24203,6 +26137,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1978080129
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24296,7 +26231,7 @@ GameObject:
   - component: {fileID: 1982985565}
   - component: {fileID: 1982985564}
   - component: {fileID: 1982985563}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24318,6 +26253,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1982985564
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24523,7 +26459,7 @@ GameObject:
   - component: {fileID: 1989986034}
   - component: {fileID: 1989986033}
   - component: {fileID: 1989986032}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (49)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -24545,6 +26481,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1989986033
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24638,7 +26575,7 @@ GameObject:
   - component: {fileID: 1996922721}
   - component: {fileID: 1996922720}
   - component: {fileID: 1996922719}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (56)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -24660,6 +26597,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &1996922720
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24753,7 +26691,7 @@ GameObject:
   - component: {fileID: 2015533706}
   - component: {fileID: 2015533705}
   - component: {fileID: 2015533704}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24775,6 +26713,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2015533705
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24868,7 +26807,7 @@ GameObject:
   - component: {fileID: 2016755053}
   - component: {fileID: 2016755052}
   - component: {fileID: 2016755051}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (75)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -24890,6 +26829,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2016755052
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24983,7 +26923,7 @@ GameObject:
   - component: {fileID: 2018484104}
   - component: {fileID: 2018484103}
   - component: {fileID: 2018484102}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (23)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -25005,6 +26945,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2018484103
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25098,9 +27039,9 @@ GameObject:
   - component: {fileID: 2025571833}
   - component: {fileID: 2025571835}
   - component: {fileID: 2025571836}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ball
-  m_TagString: Untagged
+  m_TagString: doshman
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25180,7 +27121,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -25245,7 +27186,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025571832}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -25253,6 +27194,7 @@ MonoBehaviour:
   scoreToGive: -10
   enemy: 1
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!1 &2039061230
 GameObject:
   m_ObjectHideFlags: 0
@@ -25265,7 +27207,7 @@ GameObject:
   - component: {fileID: 2039061233}
   - component: {fileID: 2039061232}
   - component: {fileID: 2039061231}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25287,6 +27229,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2039061232
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25368,6 +27311,81 @@ Transform:
   m_Father: {fileID: 1438692465}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2047339089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2047339090}
+  - component: {fileID: 2047339092}
+  - component: {fileID: 2047339091}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2047339090
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047339089}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 857461696}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.7999878, y: -0.7999878}
+  m_SizeDelta: {x: 1294.8226, y: 444.79166}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2047339091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047339089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.85882354}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 20c04d54897bc3a43819a86ab079be5f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2047339092
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047339089}
+  m_CullTransparentMesh: 0
 --- !u!1 &2074230355
 GameObject:
   m_ObjectHideFlags: 0
@@ -25380,7 +27398,7 @@ GameObject:
   - component: {fileID: 2074230358}
   - component: {fileID: 2074230357}
   - component: {fileID: 2074230356}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (27)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -25402,6 +27420,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2074230357
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25495,7 +27514,7 @@ GameObject:
   - component: {fileID: 2082833991}
   - component: {fileID: 2082833990}
   - component: {fileID: 2082833989}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (51)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -25517,6 +27536,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2082833990
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25610,7 +27630,7 @@ GameObject:
   - component: {fileID: 2086914518}
   - component: {fileID: 2086914517}
   - component: {fileID: 2086914516}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25632,6 +27652,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2086914517
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25725,7 +27746,7 @@ GameObject:
   - component: {fileID: 2099720649}
   - component: {fileID: 2099720648}
   - component: {fileID: 2099720647}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (53)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -25747,6 +27768,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2099720648
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25840,7 +27862,7 @@ GameObject:
   - component: {fileID: 2102960806}
   - component: {fileID: 2102960805}
   - component: {fileID: 2102960804}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (70)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -25862,6 +27884,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2102960805
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25943,6 +27966,63 @@ Transform:
   m_Father: {fileID: 399261137}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2112429512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2112429513}
+  - component: {fileID: 2112429514}
+  m_Layer: 0
+  m_Name: Catcher (1)
+  m_TagString: killbox
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2112429513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112429512}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 240.14, y: 1.15, z: 0}
+  m_LocalScale: {x: 20, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 519420032}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!61 &2112429514
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112429512}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2120463593
 GameObject:
   m_ObjectHideFlags: 0
@@ -26037,7 +28117,7 @@ GameObject:
   - component: {fileID: 2120560138}
   - component: {fileID: 2120560137}
   - component: {fileID: 2120560136}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: berger (57)
   m_TagString: burger
   m_Icon: {fileID: 0}
@@ -26059,6 +28139,7 @@ MonoBehaviour:
   scoreToGive: 10
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2120560137
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26152,7 +28233,7 @@ GameObject:
   - component: {fileID: 2133388068}
   - component: {fileID: 2133388067}
   - component: {fileID: 2133388066}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: tomato (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26174,6 +28255,7 @@ MonoBehaviour:
   scoreToGive: 20
   enemy: 0
   Fifth: 0
+  cameraShake: {fileID: 0}
 --- !u!58 &2133388067
 CircleCollider2D:
   m_ObjectHideFlags: 0
