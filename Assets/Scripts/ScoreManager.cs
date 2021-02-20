@@ -18,8 +18,7 @@ public class ScoreManager : MonoBehaviour
     void Start()
     {
         if(PlayerPrefs.HasKey("HighScore")){
-            hiScoreCount = PlayerPrefs.GetFloat("HighScore");
-            endHiScoreCount = hiScoreCount;
+            endHiScoreCount = PlayerPrefs.GetFloat("HighScore");
         }
     }
 
@@ -29,10 +28,11 @@ public class ScoreManager : MonoBehaviour
         if (scoreCount > hiScoreCount)
         {
             hiScoreCount = scoreCount;
-            if(hiScoreCount > endHiScoreCount){
-                endHiScoreCount = hiScoreCount;
-            }
-            PlayerPrefs.SetFloat("HighScore", hiScoreCount);
+            PlayerPrefs.SetFloat("HighScore", endHiScoreCount);
+        }
+        if (scoreCount > endHiScoreCount)
+        {
+            PlayerPrefs.SetFloat("HighScore", endHiScoreCount);
         }
 
         scoreText.text = "Score: " + scoreCount;

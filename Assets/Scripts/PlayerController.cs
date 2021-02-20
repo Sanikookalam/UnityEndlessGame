@@ -124,11 +124,10 @@ public class PlayerController : MonoBehaviour
 
         if(other.gameObject.tag == "killbox")
         {
-            
             myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
-
             theGameManager.RestartGame();
             deathSound.Play();
+            theScoreManager.hiScoreCount = 0;
         }
         else if( (other.gameObject.tag == "doshman"))
         {
@@ -137,6 +136,7 @@ public class PlayerController : MonoBehaviour
             moveSpeed = 4;
             myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
             enemySound.Play();
+            theScoreManager.hiScoreCount += scoreToGive;
         }
         else if(other.gameObject.tag == "sofre")
         {
@@ -144,6 +144,11 @@ public class PlayerController : MonoBehaviour
             moveSpeed = 0;
             myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
             theGameManager.Win();
+            if(theScoreManager.hiScoreCount > theScoreManager.endHiScoreCount ){
+                theScoreManager.endHiScoreCount = theScoreManager.hiScoreCount;
+            }
+            PlayerPrefs.SetFloat("HighScore", theScoreManager.endHiScoreCount);
+
         }
     }
 }
