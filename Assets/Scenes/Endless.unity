@@ -4548,10 +4548,10 @@ RectTransform:
   m_Father: {fileID: 631024050}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 99, y: -104}
-  m_SizeDelta: {x: 192.2785, y: -47.446747}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 63.8, y: -52.67}
+  m_SizeDelta: {x: 549.1814, y: 54.857895}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &380431545
 MonoBehaviour:
@@ -4575,7 +4575,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -4586,7 +4586,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'High Score : 0'
+  m_Text: 'Your Highest Score is : '
 --- !u!222 &380431546
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5748,7 +5748,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445383497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.6, y: -2.54, z: 0}
+  m_LocalPosition: {x: 46.64, y: -2.54, z: 0}
   m_LocalScale: {x: 1.3263805, y: 1.3263805, z: 1.3263805}
   m_Children:
   - {fileID: 739791055}
@@ -5814,7 +5814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4590a01e94ca7c4288bc3aae1145c15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 2
   speedMultiplier: 1.25
   speedIncreaseMilestone: 20
   jumpForce: 6
@@ -25607,8 +25607,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 54074632}
   hiScoreText: {fileID: 1721847346}
+  endHiScoreText: {fileID: 380431545}
   scoreCount: 0
   hiScoreCount: 0
+  endHiScoreCount: 0
 --- !u!1 &1954865287
 GameObject:
   m_ObjectHideFlags: 0
