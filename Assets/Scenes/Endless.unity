@@ -5684,7 +5684,7 @@ GameObject:
   - component: {fileID: 445383502}
   m_Layer: 9
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5748,7 +5748,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445383497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 41.44, y: -2.48, z: 0}
+  m_LocalPosition: {x: 42.6, y: -2.48, z: 0}
   m_LocalScale: {x: 1.3263805, y: 1.3263805, z: 1.3263805}
   m_Children:
   - {fileID: 739791055}
@@ -5819,7 +5819,6 @@ MonoBehaviour:
   speedIncreaseMilestone: 20
   jumpForce: 6
   jumpTime: 0.5
-  fallingObject: {fileID: 0}
   grounded: 1
   whatIsGround:
     serializedVersion: 2
@@ -7031,7 +7030,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 982773692}
@@ -7180,6 +7179,7 @@ GameObject:
   - component: {fileID: 535075273}
   - component: {fileID: 535075272}
   - component: {fileID: 535075276}
+  - component: {fileID: 535075277}
   m_Layer: 11
   m_Name: adams khersi (1)
   m_TagString: doshman
@@ -7220,7 +7220,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535075271}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1d7507f10389da47a8daf3ac1373889, type: 3}
   m_Name: 
@@ -7315,6 +7315,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &535075277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535075271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1d93f652c797846add40a2949918df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xMoveSpeed: 3
+  yMoveSpeed: 3
+  s: 2
 --- !u!1 &550726001
 GameObject:
   m_ObjectHideFlags: 0
@@ -10668,7 +10683,7 @@ PolygonCollider2D:
       - {x: -3.1299999, y: 0.705}
       - {x: -3.1999998, y: 0.385}
       - {x: -3.23, y: -0.005}
-      - {x: -3.23, y: -0.315}
+      - {x: -3.3519347, y: -0.4186698}
       - {x: -3.27, y: -0.33499998}
       - {x: -3.32, y: -0.405}
       - {x: -3.32, y: -0.685}
@@ -14078,7 +14093,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0a2c2ecdfd03ae94d81214f61e3c3b83, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.565
   m_Pitch: 1
   Loop: 1
   Mute: 0

@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     private bool canDoubleJump;
 
     private Rigidbody2D myRigidbody;
-    public Rigidbody2D fallingObject;
+    //public Rigidbody2D fallingObject;
 
     public bool grounded;
     public LayerMask whatIsGround;
