@@ -26138,6 +26138,7 @@ MonoBehaviour:
   scoreCount: 0
   hiScoreCount: 0
   endHiScoreCount: 0
+  pointsPerSecond: 5
 --- !u!1 &1954865287
 GameObject:
   m_ObjectHideFlags: 0
