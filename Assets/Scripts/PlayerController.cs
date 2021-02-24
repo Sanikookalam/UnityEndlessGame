@@ -130,7 +130,7 @@ public class PlayerController : MonoBehaviour
             deathSound.Play();
             theScoreManager.hiScoreCount = 0;
         }
-        else if( (other.gameObject.tag == "doshman"))
+        else if( other.gameObject.tag == "doshman")
         {
             scoreToGive = -10;
             theScoreManager.AddScore(scoreToGive);
@@ -138,6 +138,11 @@ public class PlayerController : MonoBehaviour
             myRigidbody.velocity = new Vector2(moveSpeed,myRigidbody.velocity.y);
             enemySound.Play();
             theScoreManager.hiScoreCount += scoreToGive;
+
+            // var magnitude = 10000;
+            // var force = transform.position - other.transform.position;
+            // force.Normalize ();
+            // GetComponent<Rigidbody2D> ().AddForce (-force * magnitude);
         }
         else if(other.gameObject.tag == "sofre")
         {
