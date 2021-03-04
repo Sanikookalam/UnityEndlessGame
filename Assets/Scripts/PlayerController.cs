@@ -129,6 +129,7 @@ public class PlayerController : MonoBehaviour
             theGameManager.RestartGame();
             deathSound.Play();
             theScoreManager.hiScoreCount = 0;
+            theScoreManager.killbox=true;
         }
         else if( other.gameObject.tag == "doshman")
         {
